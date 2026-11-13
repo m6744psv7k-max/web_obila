@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T12:21:28Z",
+ "updated": "2026-11-13T09:29:21Z",
  "FEB": {
   "us": "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
   "t": [
@@ -445,6 +445,217 @@
    "manual": true
   }
  ],
- "news_auto": [],
- "feb_updated": "2026-11-11T12:21:28Z"
+ "news_auto": [
+  {
+   "date": "2026-11-06",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPU1dqNkdWdGhhZVVKbEs0VU1qN051X01ZeklHNkV4eFlVNU14MGRMV1Nxc2VSMHl6dTZvLV83cGRqaFBSaUFoQ1dycW9pV2diNGhhZzFFNHVnQUg3dFVQWGo3a045MDJvRFBSaFpyNGRlb1JXVTcwNlpLcklneGNjekdRc2JDYmlJQUxmS1pEMjM0enlPdlpZY0Jwdy1BUnhDMjJPeDRTM3NRSFQ4blVhRWVYU2ZrVEJqVm5XUEt5QVlfRWUtUG54QktoT3JTaDQ?oc=5",
+   "title": "El Hotel 4Postes vuelve al CUM con cuentas 'pendientes'",
+   "body": ""
+  },
+  {
+   "date": "2026-10-31",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQS1Y3WTFfbUNXM2ZKOHM4RlFVZmVvazl5S1loUGd6NWdXcS1JY0tRcVc5SlkyMEQwQ2xrUVIxZmNnU2FYTURYcGFfVWVCMC1Pa3JaZHI3UVllT25JRjBmWS14TS1JVDJDSktUb3d4TnJPU184VEJJWWxfNmNRRHpUX3dNcXotbEhKamx1TEFHVlhuVks1YXcxY1NOOU1RM1dnSUc3OXhhTmlvNTBJU3NpUzFrdGN2ZnZtekVYdDN2Z0RTeVhxWDJqZDVJai10UQ?oc=5",
+   "title": "El Hotel 4Postes se queda cerca en un ajustado final",
+   "body": ""
+  },
+  {
+   "date": "2026-10-30",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMXZwUFRjUFk1ZDFPYnZIT19Sd3ZJeUF2d1dieEkzZnBzZ0UzSXFGVkFreXdNMy1HV1g3YUNxMmVjQmJkTmllNXc1WWE1cERURnUzRU12cGtYVXFKUEIweVFnRV9QUERIZjJMOUdvY0VKTTZNRGhZdVBIWmlPenh2TEItS3RPaXhsS3NyV01ZNl91V1F2NkFjZkFhSzZnbG9sZF9lcU5jZDQybjdHSmlCeFlfWUczX091WG9J?oc=5",
+   "title": "Hotel 4Postes, a recuperar sensaciones y volver a ganar",
+   "body": ""
+  },
+  {
+   "date": "2026-10-26",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNFJhRXo0VGRkdUpZbXo3eEdxS0NMOWd4V0tib1hhY1BzeVpHRkgzZWs4UkQ0b19XQkdyZ2pQMXFkWWluNTlGWnRCZEJWd2pGYjFfZ1lVQWNia0F6T29LZm5rYkVDOGZaOVJvZ1FFa1plREliNEFHSXQtQmpualp0eWF4Y2RrMGpGUjJsUkR1Ql95TF9LdDZxSGRzSVEzdC1OdV9LV0U0YVcyTERMenJKY2w4OEJ0Rl91dTRRSTRXemMwNEJwTkFnUWZ3?oc=5",
+   "title": "Toque de atención para el 4Postes Ávila Auténtica",
+   "body": ""
+  },
+  {
+   "date": "2026-10-24",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMFA0MDdnMmt0LXgwRGNvSmZ2NWpSVjZDVmlWTTVCaEk2ZElDbF9Neng5V3JsU2xGdnFTY3lNVmZXcGtkenhWa0xoc296VndrQnFtcFFHQXBxc01BOHZKbjBDQlBpdjNIYVZZOVZCUjBUOHhxcnNtdkQtRndrVjYxRE4zaXYydnNNb01XTVEtWEIxUjFmclJiZ1ZyZXJwaWlWc1F4UFJ0MGZVUnhNcDJiMTBJSWdYYlJYTHprT1Jkaw?oc=5",
+   "title": "Al Hotel 4Postes le falto un 'poco' de todo",
+   "body": ""
+  },
+  {
+   "date": "2026-10-23",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbS1ibWNmMm5HS3pZSmluRUNfZ2JRQWRFTUYyM0E0eG9QM3VvVVZMeEpmWUVxVG9YUm43N3dITkhBN0RmT28tNlZZNlJ2ZDZQdC1hMklXQlo2R1lWdDgzbllSVkpDQ2IweUJyRXJEWjhSMV9HVWlIeUdtbDBuNmd3Y0MzTFBkNllwbkdOOElCUGdRR3B6R19ZZmIwRUc2aElTcDVxem5HLXVnU3IySlRPX3ZDWnVXMTd5VFJaOW11VXExaUhCTjNtNFZhTU5icEJ0bWJtSw?oc=5",
+   "title": "El factor CUM Carlos Sastre, un plus para el Hotel 4Postes",
+   "body": ""
+  },
+  {
+   "date": "2026-10-17",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSEZHS1ZweFJxOE5MX181eG8wTE1TM01pMzFld0p5QlpDMXJFNmVRR3QtUUxfWjRTVUVKcC1TVFVIQ0RweTN6OUR5TDZFR2NoSHRtbDM2NDZXRWNiZXZGU2hBRHlrTmVyQ2hYekIyQl9Pa1VWSHlkR25LU1N4ZWtCaDgwYW9jZDBqZXFFNm4xUG5GVmNKeWtEOTJXUUpRQ0NpX2FKWQ?oc=5",
+   "title": "La salida más difícil",
+   "body": ""
+  },
+  {
+   "date": "2026-10-11",
+   "src": "Deportes Ávila",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYndYLTY4NHVnLTRhRl8zN01neEtBS2E1V1RSSzZIazZGVHZ5ZUU2OVdzNUNNOVdWdk83QnI1bnVfLXhrWEhmZzdUdXIwaXM3LWZkbkxrSGhUZWxYcHBOaXhNYkY2VjV4N3loaHcwOEZYNEVGWURIR2EyWHpmeGx4OFpJWjZVOGttNFZfdTdJS1BlS0ppT0E3Yw?oc=5",
+   "title": "El Óbila resurge en el último cuarto y conquista su primera victoria",
+   "body": ""
+  },
+  {
+   "date": "2026-10-09",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMmtSRm9XclBVRHZXdUY4blBoa285ZW5fNlZuaUJsUEFWUllWR05kc3ExUF9WN1hpb2pQM0ZXV082VDRBUm04WDJHb2NnTDVOM0JsVlp0R1Z1dnprempxbWpBa2FFeWo5ZkR1VWdENGZsNmpOcXlDLWt4a01nUElvVVlvVHN6ajA3aHhRLXRYNU5oUHhvdl9PX0o0cXZraE42aF9sWnFkejAzM3VXUWRiZ3ZYa3FXNmQyQzUxU2ZGbFZ4WFFYai1kQ2VmQk9XeUVyT0s1aXNSMkg1dw?oc=5",
+   "title": "El Hotel 4Postes debuta en casa ante el Universidad de Deusto",
+   "body": ""
+  },
+  {
+   "date": "2026-10-03",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTllBMWk4UmZGNEpzcDhEYVVOS2taNlE3MkxjWkhEc2J3ejYzTEJVUFdqWGhjSG4zc2dxekYtb1NzbDZCNWxKd2N2b3JMcGZ0bEdTajJUaVFCdTF2NGxlRVJEdVBKbGVfNktLYkRvajZfRERuU0hkdlotaFptMjNXeGVZYVBmdWZmSUhTekxIRTY4ME1reEptaVNtV2x1WVF5NEJJM0pqanFfdnFSa042NV9VQVVGMXQ0NHR0MnpVMUliNGs?oc=5",
+   "title": "Mucho Cantbasket para el nuevo Hotel 4Postes",
+   "body": ""
+  },
+  {
+   "date": "2026-10-02",
+   "src": "Cadena SER",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN1BsUDZseWw0OTBZZC1QdS1TWmI1MUg2cXZOUFZXU0VXbTJJSGRDbmdicWVLT0E1OWp3UmFOcklZVk4xbzBNUDBKazFob0o1aVN0WG9iaTNKbGlMVy1QSGxUMThpNnFOTE1mYkVmUnJlM3F6U1Z4RU8weHFWdURpVUU2aFRFaFNRM2liMjJUU2NxeDI4RmxtMnJYUGU?oc=5",
+   "title": "El Óbila comienza la liga en Santander",
+   "body": ""
+  },
+  {
+   "date": "2026-09-26",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUDNTdFlybFgxeVVySDFLeWJmQzBkcXI4MUNoYURWWDMzSWlvWTV6MnVqQVRSRkhGLW9WQzF4X2hoa29zeGNCU1JaN2Z1VTdFQlgxZ29FaWZNWTRWWmpIYXN1NTFSYkVDdG1nR0o0WjhnQ21qVGhocm0zY1hnQjJuU0xXQ0VCQXNSaHlFc1VFWHhET2Nac0FsR2dGTUJJUGdfQ3Y4QjZvV2RWUGtDVTlKVVJsaUVKYzVlbE5tcllVNzVXQ1prTnJIMEdrVWE4MEVxdGZ1ZmFQbV8zUQ?oc=5",
+   "title": "Derrota del Hotel 4Postes en el último ensayo de pretemporada",
+   "body": ""
+  },
+  {
+   "date": "2026-09-25",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY00yaHpHb21sdlN2ZTNMdTZZQXV4QkU3c2lZbXI2Z2NsZV9uLUxVX216dHpLY094bi1ZU1h5dWVyTkc2M2FDUGl2eW5JcE9wNWRrenRORjhyblg2eTRZS1hrdzB6WkoxWnlreWwtVVBCdTEtblRkclAzWlBXaDZQTGFKQWkwRnJ5dW0zelRwU201ZEdINDgtaG0zWUdVVXVMX0ZLbHNFNzVVVjJ4YjNzbA?oc=5",
+   "title": "Última prueba antes de la Liga",
+   "body": ""
+  },
+  {
+   "date": "2026-09-17",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOODVlSTFIbUh5cjVPdzQ5X2MzLVFSSFNOSkZKM1Z6VVZNVWxheEpfenBadW5rT3dwdGNYbmJmQndaZV8xTFpodGVzdTBDSnhmU1h6UHBZS2ExM0pZT0ZYaVZuMXFrRXBxcm9OT3RQdDVkYlAxVDVWbzZ5ZTlhMC16Ti1tbGkwSW1tdVZrT0JfZWY5N3Z0dUJiNTRZNG5Vb3J2c3k0bnlTY1Vqb0lPYklXTGNRV1BkTEsyM19JaU92LVI0ZnRjM0txaUJR?oc=5",
+   "title": "El Hotel 4Postes estrena su casillero de triunfos",
+   "body": ""
+  },
+  {
+   "date": "2026-09-16",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOU0ZlQ2wwMlRxbkNtZ2FuNUFKVm13a0QyU00wX2VBWDdXWWd3WHRXbVhTdHNvMFBsMWRzaTlWbzNQNmdnSjJtckI0a0NkREpJenExVWpZeVNPRFQ2alpudV9pQXJyek9jcW9UV0djOWNGN2dGZ2JoeTgzZFpnU2xQbnRQN3R6NFo2bFVjc3hwb1doYnY1ajQtRUswYTNMb1VTeV9lV2Y5ejZZYmlHSlV5eWhUU0NvNVZZU3AwTjZDRWxxWlU?oc=5",
+   "title": "Primera ocasión para ver al Óbila en directo",
+   "body": ""
+  },
+  {
+   "date": "2026-09-12",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWE1XV0hxemxQUUxSbmhlendkUEZkNTFjRU9acWNmLVNHUmJfOU81V1J0VmRnMnVrdzR6T19Tc0o5Q1VEbG4wSVB5bVhXSXlJR2RuZThpVXE4ZVRLNFJaeFVlTFI4amxQVHNtdkNORXUwblRlSkxPM1NlZV9CMjdKemk2M0I2NzM1WHpvS3ZSejZHVTlrdUpUZy0tRFphc3BxcFVLZjFFdXdNY3duV1QzUWVNRFNwckQ5SG1YWHFKenpWanlpTVE0c1paV3dJdw?oc=5",
+   "title": "Hotel 4Postes Ávila Auténtica se estrena con derrota (100-70)",
+   "body": ""
+  },
+  {
+   "date": "2026-09-09",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOHc0XzZRcWRfSElYbzd1Y2Y2N3M1cEdySW5sT1BXMnJtQmhtTlh6NGVNTnEyN0FyTGk4R2U1LTFyYUxseFA5X2FyYVFwbGJHODJBWG9wUkpUR2xoNmFXM2VsUWpEdHlzRXlKeDROc0JQcExiWWFzN3RwTE1mZlo5aEZzUkFjVEFfeTBBT2xqYlhGZTFBY09aaVg5REYxZmhDNTBNX0RjNnJwOUxuWnhaNk5n?oc=5",
+   "title": "Primeras citas para el Óbila CB",
+   "body": ""
+  },
+  {
+   "date": "2026-09-03",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSjFvUURTekNoT2NRYV9XYnVwSVdkQVlzTTlrUUpLcDNIMGtSQlRKaGo3cnh1YmxGWUxveFBoVkt0NXpGNnJhcUM0ZGxXUGVEeWI3OGc2SEVfQWM1dXNldnBQSFNZR0J5OWkzLXBsVzlOOE5aR0JkenB2X0NDanoxanZ4aE55NTJkckpXck9OZWpicnJoQ2p3Y0JzX29qbzR0VWJXRE56OWhkQ3RLNnNDTA?oc=5",
+   "title": "Un nuevo Óbila para \"divertirse\"",
+   "body": ""
+  },
+  {
+   "date": "2026-09-01",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ3pQN0VZQnBILTN5T09heXNjN2I0X2ZSaGRnOVcwUGxnMEpvMWpUVzBEU25WellwTDB5NzAxNU8xRTFNQ3FHQVo4MWJlbWFjd0ZDZ19TVWpoRUJYM0ZtN242ZTlLWkRIbEdyQzlGUkxZcnRBbGE5ZDcwVU02S1ByUkVmYXhvMmh6RWthREtoUTZJM2FHZmU2ZEt5elYySHlnR3R2bEtmWDNsMWtxWXNCV2s3b1hEbkVpQ1E?oc=5",
+   "title": "El Óbila lanza su campaña de abonados",
+   "body": ""
+  },
+  {
+   "date": "2026-08-31",
+   "src": "Tribuna de Ávila.",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZWNRNjZEMzZzbkkzeVJ3bjZVOEs4YlBLRzUyaGJNUEx2cVNjaVd5NzBzUDAzNlV0Qm5HTnZtM0tUV2JlZWZqZHdTRXhLN0VERnllV3M2Q2JOd0tJSGpQT21CbTNmWWIxMkp2YnhKd0JNT29yVUFiM3pQckVMYlFNMnNTWExlSFVHRHhzX3Eyc2xZcEhnc3pRNGE4VWxmQU1fTEpIeWZn?oc=5",
+   "title": "Esdras Sánchez de la Cruz, nuevo directo de juego del Óbila",
+   "body": ""
+  },
+  {
+   "date": "2026-08-30",
+   "src": "Tribuna de Ávila.",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWGkxd1RwSGVXSHl3MmpNM1dKQlJFV1NaRWVmYkdDRVFETTdDZnd1VFlBZ2UtUmZFZGFjeTJjdWFsY0J6aTV1NFNoUFhNMmh5R3hWYmZNMXB1dk9kTnV6aEhWdURvMWNWeTBfRzdPRmQyaFZnVzB4QlJuaXE0aWRDNGs5ZmRwVlJwOW1ZT2k0bWdJQzhsaHJDQXZzWEFXM1JrZk8ta3JVVmVENHRITFJPQzhCVE11clpaU19WcHlB?oc=5",
+   "title": "Adrián Vázquez seguirá en el Óbila Club de Basket durante la nueva temporada",
+   "body": ""
+  },
+  {
+   "date": "2026-08-27",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTjgteUdZX1A3T0hTcGREaGdiMFZTQXB6V1lUZTNXYXEyemFxaEdBd3cxekh5RlBFeE8zMkhFTGg4YkpYWnRpVWRwNy1WQUFsMjhEYzRJZWtLTlgwNGF4bjFNcjF6d3J4LTd1ZndpcWNVbVFDaG1WVEludWRrWlZWTWVFLUJOa3NqTEo4cy1rNDZUR3dhQ0tCY1dCU1QtdHFjQThSMkFELVVDWHNGUkFZOWYyX2g5N21EWFp0eWEzY1VtTVZMOEdR?oc=5",
+   "title": "Agustín Fernández, al primer equipo del Óbila CB",
+   "body": ""
+  },
+  {
+   "date": "2026-08-25",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTDlUVlByaHVDZV9xUW15Q255clYwT3k3cEFGcktFNFFxUjRtZG00S0RteWZZVm5QcDRES3AxaFhEODV6N0JxQ0pYb3h0NF80SzZKVFR0NUQ0M1dURjJ5dlRod0tRa2VOeTBOd2hXZk5LVUREQ293NFZGREE2dVFBeXBhQWpIUWxpMGZER3lTV050aHd0SE8wWWltUUxtSHpoUWpUTS1Yb0Z5MFhaVGxJZlBmV2pPX0dT?oc=5",
+   "title": "Francisco Quirós regresa al Óbila CB para incorporarse al Tercera FEB",
+   "body": ""
+  },
+  {
+   "date": "2026-08-21",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWWZEenVPM0lRb0lidENKUUVBa21SMzdTbmJLYldBWWhmVkMxbkNkdFpXTVNiMm5BZUJBQ2FlZnlpYTVpNEZ1OXU3d1lWYlFueEpwNlU5WERreFJHeDJ2NDIzODlHUHd2LVFoT3JORThjNjJVcmcwSjhLVjRvN3VibW1GbmFnYVRIUS05WDZGYXprYzA3RXpiZzc4anJaem1MQk5kVW5CQmJlSS1iVm5yZEFNTFhUTWhBTWZ1b3hZU0V6RFBtUW9mQkljWVN2VklaS3JB?oc=5",
+   "title": "Ricardo Peñalver, con ficha en el primer equipo del Óbila",
+   "body": ""
+  },
+  {
+   "date": "2026-08-17",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQU01nSHhHWmFaZElhaUN5QnhYZzBnVmt5enRCNHRQcmVRMW5GVG9tWElhQTVEdTIwVGI3VGlHSEY4RnF4LXlUbV9ic09BZVdLbWZ2SXQ4YXlhSHUwRmZnMFBlR2xWa2xmb3U2eUhpd1VpdFludDJabnZ4ay0xZUEwT0wtMlE4ZWNpSHFqUEFINkhpdDl2MVI0RnF1T3dqZndZMHlFaUtVLW1wTUVWWWx0ZklITzFtUExhbjJsVFRGcnVzWkJYeU83RHFyNA?oc=5",
+   "title": "El base Anxo Iglesias, segundo fichaje del Óbila CB",
+   "body": ""
+  },
+  {
+   "date": "2026-08-17",
+   "src": "Tribuna de Ávila.",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZlhhY1d5aVNqQzMxS1ctOHJCMGxvV0drLWJrbHI4OHN6Tm9SOXFtSzZrQXE5V3FvaVBiVzFma1hablhvRkhBSUwyZE5CSWNxaThlQWhwMjRFWmhlWURzbDM4bkNnVnRNcXBHbGlwZnJJcXhGWnZ2YXlIUWoxNkRTbDJlS0hfcDB2U2lpdTMzMlRVMjhaZzQ0?oc=5",
+   "title": "El base Anxo Iglesias, segundo fichaje del Óbila",
+   "body": ""
+  },
+  {
+   "date": "2026-08-11",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZENZemktWkZJblhHMGVuY3F6d2E2QndfWWZNOGQwU2JxT1Bzc0xaN0tEd29YckwyRU55dWZTQVZHNjhyVWltX0NSWGtoTEcwYXpmVUpUSW52UGNIcnc0NjQyVlA4UlR3LTF5SDBvMU5DMXNWMGk2NVJTOG9sSlNZZ2x6TVI5N19acHA0OEhyWk9kY0R3RnJGRUNmRXNITHBLWEdCekt4RDRWRlA3QVNZckxYYjd2MzNxRXpuZVVJX2dUR05HVmFLc01aVThGTXNHNkQ3TVlR?oc=5",
+   "title": "Mauro Carretero se consolida en el primer equipo del Óbila",
+   "body": ""
+  },
+  {
+   "date": "2026-08-05",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOb1F3S0dqcDlGS3RaZ3ZZVDRKbTRrTDczSElieXpDek9YclF3S2pXS2VIOWFLZmdacWs0SktTaWZENHJZbHl6M01iU3lMMVgyeWZMalcxZ0tBMHAzbklyYTd2dDNoemNwaENidlRCbTlGY2RkekE3OUNaY2VxdHRTQk9pUVB2YzlzMkV3ZWZKeFhZRW5oLVlpQks1blU5dHVSYS1rZU1nNjh3RTNBc3pYRUlYMWpLU1B0XzlHOVRLR0FqOFVIbm10X2dROGJ4SEhSREVybA?oc=5",
+   "title": "El canterano Carlos Hernández se asienta en el equipo FEB",
+   "body": ""
+  },
+  {
+   "date": "2026-07-28",
+   "src": "Tribuna de Ávila.",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMWxFZVo2cnJqT05keDlwSFFweFVOWjlPQ2Y2NTZLZVQtQ0lwMU5rT0FZdF85SEp4R0ZtVlRrcU4xMXhNaC1QcjJ6cmdoSUYwWDE3VXJvUnhIQlN6ejJ4TFdXSEhHYzFvb1BMMmhFWW1EREptTFFrQ1JvNUJQdzdGVkdTaU9yS2xGRmN3S19oUUk1ajM3el8yeWdjWVMtV1JtWnlLdWg4N1hQZllKSGpVXzRfZDdndm9sSUJrYTZB?oc=5",
+   "title": "El Óbila ya conoce el calendario de la Tercera FEB para la temporada 2026/27",
+   "body": ""
+  },
+  {
+   "date": "2026-07-01",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYWlRTGljSnpfYWZ0OFFkVzhFNjFTZVVhTFU0b2lVbWVSNjJBVi0zdHY1bVRpMkFUaXZnbUVpTEY5Tkl5WEszSjNjMm5qSzZyeXpxdEdUT0hNNFZsZDhhS2JzTkNHOWdiOF9yOGVoWksxX2d5YloxNm4yY1VVM3BzX2d1eWhSQS1MalRVMEFhMjB0SWthby1ZY1ZFYkxfV3ZNbzQ3SFZYOXlpdWpiQkc0OFFoZlNURG9vVFpjNDdsVzh1MW5meWZr?oc=5",
+   "title": "El Campus de Baloncesto Ávila 2026, ya en marcha",
+   "body": ""
+  }
+ ],
+ "feb_updated": "2026-11-13T09:29:20Z"
 }
