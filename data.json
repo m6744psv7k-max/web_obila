@@ -1,0 +1,450 @@
+{
+ "updated": "2026-11-11T12:21:28Z",
+ "FEB": {
+  "us": "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
+  "t": [
+   [
+    1,
+    "TEKNEI BIZKAIA ZORNOTZA",
+    6,
+    6,
+    0,
+    569,
+    428
+   ],
+   [
+    2,
+    "RESTAURANTE LOS ARCOS CB SOLARES",
+    6,
+    5,
+    1,
+    502,
+    442
+   ],
+   [
+    3,
+    "CONSTRUCCIONES GONZALO CRESPO PAS PIÉLAGOS",
+    6,
+    5,
+    1,
+    490,
+    440
+   ],
+   [
+    4,
+    "DE MORRO FINO CANTBASKET04",
+    6,
+    5,
+    1,
+    563,
+    519
+   ],
+   [
+    5,
+    "ULACIA ZKE",
+    6,
+    4,
+    2,
+    499,
+    451
+   ],
+   [
+    6,
+    "IRUKI TAKE",
+    6,
+    3,
+    3,
+    474,
+    470
+   ],
+   [
+    7,
+    "ELABORADOS NATURALES VALLE DE EGÜÉS",
+    6,
+    3,
+    3,
+    490,
+    503
+   ],
+   [
+    8,
+    "UNIVERSIDAD DEUSTO LOIOLA INDAUTXU",
+    6,
+    3,
+    3,
+    476,
+    500
+   ],
+   [
+    9,
+    "SAN PRUDENCIO",
+    6,
+    2,
+    4,
+    453,
+    462
+   ],
+   [
+    10,
+    "LISDATA BEZANA",
+    6,
+    2,
+    4,
+    478,
+    507
+   ],
+   [
+    11,
+    "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
+    6,
+    2,
+    4,
+    486,
+    572
+   ],
+   [
+    12,
+    "TABIRAKO BAQUE",
+    6,
+    1,
+    5,
+    436,
+    452
+   ],
+   [
+    13,
+    "BALONCESTO LA FLECHA",
+    6,
+    1,
+    5,
+    465,
+    557
+   ],
+   [
+    14,
+    "MEGACALZADO ARDOI",
+    6,
+    0,
+    6,
+    401,
+    479
+   ]
+  ],
+  "j1": [
+   [
+    "IRUKI TAKE",
+    "TEKNEI BIZKAIA ZORNOTZA",
+    "68-85",
+    "07/11",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536700"
+   ],
+   [
+    "LISDATA BEZANA",
+    "TABIRAKO BAQUE",
+    "78-71",
+    "07/11",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536696"
+   ],
+   [
+    "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
+    "ELABORADOS NATURALES VALLE DE EGÜÉS",
+    "91-90",
+    "07/11",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536697"
+   ],
+   [
+    "MEGACALZADO ARDOI",
+    "UNIVERSIDAD DEUSTO LOIOLA INDAUTXU",
+    "71-78",
+    "07/11",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536701"
+   ],
+   [
+    "CONSTRUCCIONES GONZALO CRESPO PAS PIÉLAGOS",
+    "DE MORRO FINO CANTBASKET04",
+    "88-81",
+    "08/11",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536702"
+   ],
+   [
+    "ULACIA ZKE",
+    "RESTAURANTE LOS ARCOS CB SOLARES",
+    "92-71",
+    "08/11",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536699"
+   ],
+   [
+    "BALONCESTO LA FLECHA",
+    "SAN PRUDENCIO",
+    "81-73",
+    "08/11",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536698"
+   ]
+  ],
+  "j2": [
+   [
+    "TEKNEI BIZKAIA ZORNOTZA",
+    "MEGACALZADO ARDOI",
+    "14/11 · 18:30",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536705"
+   ],
+   [
+    "TABIRAKO BAQUE",
+    "DE MORRO FINO CANTBASKET04",
+    "14/11 · 19:00",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536703"
+   ],
+   [
+    "SAN PRUDENCIO",
+    "ULACIA ZKE",
+    "14/11 · 19:00",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536707"
+   ],
+   [
+    "LISDATA BEZANA",
+    "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
+    "14/11 · 19:00",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536709"
+   ],
+   [
+    "ELABORADOS NATURALES VALLE DE EGÜÉS",
+    "BALONCESTO LA FLECHA",
+    "14/11 · 20:00",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536708"
+   ],
+   [
+    "UNIVERSIDAD DEUSTO LOIOLA INDAUTXU",
+    "CONSTRUCCIONES GONZALO CRESPO PAS PIÉLAGOS",
+    "14/11 · 20:30",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536704"
+   ],
+   [
+    "RESTAURANTE LOS ARCOS CB SOLARES",
+    "IRUKI TAKE",
+    "15/11 · 18:00",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536706"
+   ]
+  ],
+  "round": 7
+ },
+ "STAT": {
+  "senior-m-1": {
+   "meta": "Domingos 18:30 · Pabellón Patrocinio San José, Valladolid",
+   "last": "Dom 04/10 · San Agustín Inblan 74-43 Lebronto-Muñochas Óbila (derrota)",
+   "pos": "4º de 7 · 1 victoria, 1 derrota",
+   "next": "Dom 18/10 · 18:30 · Boecillo (local)",
+   "tab": [
+    "1. San Agustín Inblan · 2 PJ · 4 pts",
+    "2. Boecillo · 2 PJ · 4 pts",
+    "3. Agrocesa C.B. Aldeamayor · 2 PJ · 3 pts",
+    "4. ★ Lebronto-Muñochas Óbila · 2 PJ · 3 pts",
+    "5. Jesuitas San José · 2 PJ · 2 pts",
+    "6. Zaratán Basket Las Contiendas · 1 PJ · 1 pts",
+    "7. Lourdes B · 1 PJ · 1 pts"
+   ]
+  },
+  "senior-m-2": {
+   "meta": "Domingos 12:30 · C.U.M. Carlos Sastre, Ávila",
+   "last": "Aún sin partidos (la liga arranca el 17/10)",
+   "pos": "Liga sin comenzar · 7 equipos",
+   "next": "Sáb 17/10 · 18:00 · Jabalines Reserva de la Biosfera (visitante)",
+   "j2": "Dom 08/11 · 12:30 · Villegas Gamifer Saltamontes Valverde (local)",
+   "tab": [
+    "1. CD Base · 0 PJ · 0 pts",
+    "2. Claret Sat Veladiez · 0 PJ · 0 pts",
+    "3. ★ Grupo Leonsa-Pizzería Amalfi - Óbila · 0 PJ · 0 pts",
+    "4. CB Cantimpalos · 0 PJ · 0 pts",
+    "5. Jabalines Reserva de la Biosfera · 0 PJ · 0 pts",
+    "6. Óptica Luxot CBS · 0 PJ · 0 pts",
+    "7. Claret Huevos Fausto · 0 PJ · 0 pts"
+   ]
+  },
+  "senior-f": {
+   "meta": "Domingos 12:30 · C.U.M. Carlos Sastre, Ávila",
+   "last": "Aún sin partidos",
+   "pos": "Liga sin comenzar · 3 equipos",
+   "next": "Calendario pendiente de publicar",
+   "tab": [
+    "1. Los Tilos Spordeporte · 0 PJ · 0 pts",
+    "2. ★ Senior Femenino Óbila · 0 PJ · 0 pts",
+    "3. Claret Arecu Inversiones · 0 PJ · 0 pts"
+   ]
+  },
+  "jun-m-aut": {
+   "meta": "Sábados 18:30 · C.U.M. Carlos Sastre, Ávila",
+   "last": "Aún sin partidos",
+   "pos": "Liga sin comenzar · 6 equipos",
+   "next": "Sáb 17/10 · 18:00 · CB Palencia Junior A (visitante)",
+   "j2": "Dom 25/10 · 12:30 · Mesón El Zurguén CB Carbajosa Carbasket (local)",
+   "tab": [
+    "1. ★ Óbila Junior Masculino A · 0 PJ · 0 pts",
+    "2. Proconsi SDP · 0 PJ · 0 pts",
+    "3. CB Zamora B · 0 PJ · 0 pts",
+    "4. Villacelama Caja Rural RDL · 0 PJ · 0 pts",
+    "5. ULE 6,25 · 0 PJ · 0 pts",
+    "6. CB Palencia Junior A · 0 PJ · 0 pts"
+   ]
+  },
+  "cad-m-aut": {
+   "meta": "Sábados 16:30 · C.U.M. Carlos Sastre, Ávila",
+   "last": "Dom 04/10 · Jesuitas San José B 72-35 Óbila (derrota)",
+   "pos": "10º de 12 · 0 victorias, 1 derrota",
+   "next": "Sáb 17/10 · 16:30 · CD Base Rojo (local)",
+   "tab": [
+    "1. Baloncesto La Flecha · 1 PJ · 2 pts",
+    "2. Cavidel CBC Valladolid B · 1 PJ · 2 pts",
+    "3. Jesuitas San José B · 1 PJ · 2 pts",
+    "4. Las Contiendas Zaratán Basket 012 · 1 PJ · 2 pts",
+    "5. CB Palencia Ural Audi · 1 PJ · 2 pts",
+    "6. Jesuitas San José A · 1 PJ · 2 pts",
+    "7. CD Base Rojo · 1 PJ · 1 pts",
+    "8. Filipenses · 1 PJ · 1 pts",
+    "9. Adarsa Maristas 12 · 1 PJ · 1 pts",
+    "10. ★ Óbila Cadete Masculino A · 1 PJ · 1 pts",
+    "11. CB Palencia Cadete B · 1 PJ · 1 pts",
+    "12. CD Base Blanco · 1 PJ · 1 pts"
+   ]
+  },
+  "inf-m-aut": {
+   "meta": "Sábados 18:30 · C.U.M. Carlos Sastre, Ávila",
+   "last": "Sáb 03/10 · San Agustín 59-39 Óbila (derrota)",
+   "pos": "7º de 11 · 0 victorias, 1 derrota",
+   "next": "Sáb 17/10 · 18:30 · CD Base Gasóleos Martín (local)",
+   "tab": [
+    "1. CD Base Gasóleos Martín · 1 PJ · 2 pts",
+    "2. Baloncesto La Flecha · 1 PJ · 2 pts",
+    "3. CB Palencia Ural Audi · 1 PJ · 2 pts",
+    "4. San Agustín · 1 PJ · 2 pts",
+    "5. Body Brite Sarabris · 1 PJ · 2 pts",
+    "6. Adarsa Maristas 14 · 1 PJ · 1 pts",
+    "7. ★ Óbila Infantil Masculino A · 1 PJ · 1 pts",
+    "8. Filipenses · 1 PJ · 1 pts",
+    "9. CB Palencia Infantil B · 1 PJ · 1 pts",
+    "10. Jesuitas San José Infantil B · 1 PJ · 1 pts",
+    "11. Cavidel CBC Valladolid B · 0 PJ · 0 pts"
+   ]
+  },
+  "inf-f-aut": {
+   "meta": "Sábados 16:30 · C.U.M. Carlos Sastre, Ávila",
+   "last": "Dom 04/10 · Carbajosa Carbasket 41-54 Óbila (victoria)",
+   "pos": "4º de 12 · 1 victoria, 0 derrotas",
+   "next": "Sáb 17/10 · 16:30 · Claret de Pablos Correduría de Seguros (local)",
+   "tab": [
+    "1. Arelsa-Cabrerizos · 1 PJ · 2 pts",
+    "2. San Agustín A Worldwide · 1 PJ · 2 pts",
+    "3. San Isidro Pucela Basket B3 · 1 PJ · 2 pts",
+    "4. ★ Óbila Infantil Femenino · 1 PJ · 2 pts",
+    "5. CD Base Gasóleos Martín · 1 PJ · 2 pts",
+    "6. Xoborg Meins Avenida · 1 PJ · 2 pts",
+    "7. San Isidro Pucela Basket · 1 PJ · 1 pts",
+    "8. Jesuitas San José Infantil B · 1 PJ · 1 pts",
+    "9. Mesón El Zurguén Carbajosa Carbasket · 1 PJ · 1 pts",
+    "10. VIPS CBSM 2014 · 1 PJ · 1 pts",
+    "11. El Pilar · 1 PJ · 1 pts",
+    "12. Claret de Pablos · 1 PJ · 1 pts"
+   ]
+  },
+  "jc-m-prov": {
+   "meta": "Domingos 12:30 · C.U.M. Carlos Sastre, Ávila",
+   "last": "Sáb 03/10 · Óbila 29-41 Claret Globales Informática (derrota)",
+   "pos": "4º de 7 · 0 victorias, 1 derrota",
+   "next": "Sáb 17/10 · 11:45 · CD Base Rojo (visitante)",
+   "tab": [
+    "1. CD Base Blanco · 1 PJ · 2 pts",
+    "2. Eufón Cuéllar · 1 PJ · 2 pts",
+    "3. Claret Globales Informática · 1 PJ · 2 pts",
+    "4. ★ Óbila Junior-Cadete Masculino · 1 PJ · 1 pts",
+    "5. Cocinas MyC Spordeporte · 1 PJ · 1 pts",
+    "6. CD Base Rojo · 1 PJ · 1 pts",
+    "7. Jabalines Reserva de la Biosfera · 0 PJ · 0 pts"
+   ]
+  },
+  "jc-f-prov": {
+   "meta": "Domingos 10:30 · C.U.M. Carlos Sastre, Ávila · Copa Cadete-Junior",
+   "last": "Aún sin partidos",
+   "pos": "Copa sin comenzar · 6 equipos",
+   "next": "Sáb 17/10 · 11:00 · Jabalinas Reserva de la Biosfera (visitante)",
+   "j2": "Sáb 07/11 · 10:00 · Eufón Cuéllar (local)",
+   "tab": [
+    "1. La Lastrilla · 0 PJ · 0 pts",
+    "2. CD Base Blanco · 0 PJ · 0 pts",
+    "3. ★ Óbila Junior-Cadete Femenino · 0 PJ · 0 pts",
+    "4. Claret SN Navarro · 0 PJ · 0 pts",
+    "5. Eufón Cuéllar · 0 PJ · 0 pts",
+    "6. Grupo Gali - Spordeporte · 0 PJ · 0 pts"
+   ]
+  },
+  "inf-m-prov": {
+   "meta": "Domingos 10:30 · C.U.M. Carlos Sastre, Ávila · Copa Provincial",
+   "last": "Sáb 03/10 · Óbila 50-37 Claret VJ Médica (victoria)",
+   "pos": "2º de 6 · 1 victoria, 0 derrotas",
+   "next": "Sáb 17/10 · 10:30 · CD Base Negro (visitante)",
+   "tab": [
+    "1. CD Base Negro · 1 PJ · 2 pts",
+    "2. ★ Óbila Infantil Masculino Provincial · 1 PJ · 2 pts",
+    "3. Eufón Cuéllar · 1 PJ · 2 pts",
+    "4. CD Base Azul · 1 PJ · 1 pts",
+    "5. Claret VJ Médica · 1 PJ · 1 pts",
+    "6. La Lastrilla - Colmenares · 1 PJ · 1 pts"
+   ]
+  },
+  "mini-v": {
+   "meta": "Domingos 10:30 · C.U.M. Carlos Sastre, Ávila"
+  },
+  "mini-b": {
+   "meta": "Domingos 10:30 · C.U.M. Carlos Sastre, Ávila"
+  }
+ },
+ "news_manual": [
+  {
+   "date": "2026-11-07",
+   "src": "Tribuna de Ávila",
+   "url": "https://www.tribunaavila.com/noticias/465685/segunda-para-el-hotel-4postes-avila-autentica-el-bulevar",
+   "title": "Segunda victoria del curso: 91-90 al Valle de Egüés",
+   "body": "El primer equipo se impuso por la mínima en el Carlos Sastre en la sexta jornada. Salió mejor, con un 21-14 en el primer cuarto, y el último cuarto fue muy igualado, resuelto con el apoyo de la grada. Con este resultado suma su segunda victoria de la temporada.",
+   "manual": true
+  },
+  {
+   "date": "2026-10-24",
+   "src": "Tribuna de Ávila",
+   "url": "https://www.tribunaavila.com/noticias/463905/de-momento-el-carlos-sastre-no-es-un-fortin",
+   "title": "Derrota en casa ante Los Arcos Solares (73-104)",
+   "body": "El primer equipo no pudo sumar su segunda victoria como local y cayó con claridad ante el Restaurante Los Arcos Solares en la cuarta jornada, con el partido decidido ya en el primer tiempo. El siguiente compromiso es el sábado 31 de octubre, a las 19:00, en la pista del San Prudencio, en Vitoria.",
+   "manual": true
+  },
+  {
+   "date": "2026-10-11",
+   "src": "Tribuna de Ávila",
+   "url": "https://www.tribunaavila.com/noticias/462233/primera-para-el-hotel-cuatro-postes-avila-autentica-el-bulevar",
+   "title": "Primera victoria del curso para el Hotel 4Postes Ávila Auténtica El Bulevar",
+   "body": "El primer equipo se estrena en casa, en el Carlos Sastre, con un 98-87 ante el Universidad Deusto Loiola Indautxu. El tercer cuarto, ganado por 35-14 con el apoyo de la grada, decidió el partido. Fran Quirós (21 puntos) y Alberto Martín (17) fueron los máximos anotadores locales.",
+   "manual": true
+  },
+  {
+   "date": "2026-10-04",
+   "src": "Tribuna de Ávila",
+   "url": "https://www.tribunaavila.com/noticias/461267/primera-derrota-verderona-en-la-vuelta-al-cole",
+   "title": "Derrota en el debut liguero ante De Morro Fino Cantbasket04",
+   "body": "El equipo cayó 96-78 en Cantabria en la primera jornada del Grupo A-A de Tercera FEB. El partido estuvo igualado hasta el descanso y los locales se escaparon en la segunda mitad.",
+   "manual": true
+  },
+  {
+   "date": "2026-10-02",
+   "src": "Tribuna de Ávila",
+   "url": "https://www.tribunaavila.com/noticias/461174/el-nuevo-obila-de-alberto-jimenez-debuta-ante-el-exigente-cantbasket",
+   "title": "El nuevo Óbila de Alberto Jiménez debuta ante el Cantbasket",
+   "body": "El primer equipo estrena la temporada fuera de casa tras un mes de preparación con fichajes y algunas molestias físicas. La plantilla se ha renovado con varios jugadores de la cantera y el técnico pide a la afición que acompañe al equipo.",
+   "manual": true
+  },
+  {
+   "date": "2026-10-02",
+   "src": "Deportes Ávila",
+   "url": "https://deportesavila.es/el-obila-alza-el-telon-la-cantera-verderona-desafia-al-cantbasket-04",
+   "title": "El Óbila abre la temporada 2026/27 con apuesta por la cantera",
+   "body": "Alberto Jiménez debuta en el banquillo de un equipo en el que nueve de los doce jugadores inscritos se han formado en el club. Llega tras una campaña en la que se quedó cerca del ascenso a Segunda FEB.",
+   "manual": true
+  }
+ ],
+ "news_auto": [],
+ "feb_updated": "2026-11-11T12:21:28Z"
+}
