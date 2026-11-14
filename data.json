@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-14T13:29:16Z",
+ "updated": "2026-11-14T19:55:08Z",
  "FEB": {
   "us": "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
   "t": [
    [
     1,
     "TEKNEI BIZKAIA ZORNOTZA",
-    6,
-    6,
+    7,
+    7,
     0,
-    569,
-    428
+    653,
+    489
    ],
    [
     2,
@@ -123,71 +123,23 @@
    [
     14,
     "MEGACALZADO ARDOI",
-    6,
+    7,
     0,
-    6,
-    401,
-    479
+    7,
+    462,
+    563
    ]
   ],
   "j1": [
    [
-    "IRUKI TAKE",
     "TEKNEI BIZKAIA ZORNOTZA",
-    "68-85",
-    "07/11",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536700"
-   ],
-   [
-    "LISDATA BEZANA",
-    "TABIRAKO BAQUE",
-    "78-71",
-    "07/11",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536696"
-   ],
-   [
-    "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
-    "ELABORADOS NATURALES VALLE DE EGÜÉS",
-    "91-90",
-    "07/11",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536697"
-   ],
-   [
     "MEGACALZADO ARDOI",
-    "UNIVERSIDAD DEUSTO LOIOLA INDAUTXU",
-    "71-78",
-    "07/11",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536701"
-   ],
-   [
-    "CONSTRUCCIONES GONZALO CRESPO PAS PIÉLAGOS",
-    "DE MORRO FINO CANTBASKET04",
-    "88-81",
-    "08/11",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536702"
-   ],
-   [
-    "ULACIA ZKE",
-    "RESTAURANTE LOS ARCOS CB SOLARES",
-    "92-71",
-    "08/11",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536699"
-   ],
-   [
-    "BALONCESTO LA FLECHA",
-    "SAN PRUDENCIO",
-    "81-73",
-    "08/11",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536698"
+    "84-61",
+    "14/11",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536705"
    ]
   ],
   "j2": [
-   [
-    "TEKNEI BIZKAIA ZORNOTZA",
-    "MEGACALZADO ARDOI",
-    "14/11 · 18:30",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536705"
-   ],
    [
     "TABIRAKO BAQUE",
     "DE MORRO FINO CANTBASKET04",
@@ -223,9 +175,51 @@
     "IRUKI TAKE",
     "15/11 · 18:00",
     "https://www.feb.es/competiciones/Partido.aspx?p=2536706"
+   ],
+   [
+    "IRUKI TAKE",
+    "SAN PRUDENCIO",
+    "21/11 · 18:00",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536713"
+   ],
+   [
+    "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
+    "TABIRAKO BAQUE",
+    "21/11 · 19:00",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536710"
+   ],
+   [
+    "DE MORRO FINO CANTBASKET04",
+    "UNIVERSIDAD DEUSTO LOIOLA INDAUTXU",
+    "21/11 · 19:00",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536716"
+   ],
+   [
+    "MEGACALZADO ARDOI",
+    "RESTAURANTE LOS ARCOS CB SOLARES",
+    "21/11 · 19:45",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536714"
+   ],
+   [
+    "CONSTRUCCIONES GONZALO CRESPO PAS PIÉLAGOS",
+    "TEKNEI BIZKAIA ZORNOTZA",
+    "22/11 · 18:00",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536715"
+   ],
+   [
+    "ULACIA ZKE",
+    "ELABORADOS NATURALES VALLE DE EGÜÉS",
+    "22/11 · 18:30",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536712"
+   ],
+   [
+    "BALONCESTO LA FLECHA",
+    "LISDATA BEZANA",
+    "22/11 · 19:00",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536711"
    ]
   ],
-  "round": 7
+  "round": 8
  },
  "STAT": {
   "senior-m-1": {
@@ -6411,6 +6405,13 @@
   {
    "date": "2026-10-02",
    "src": "Cadena SER",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN1BsUDZseWw0OTBZZC1QdS1TWmI1MUg2cXZOUFZXU0VXbTJJSGRDbmdicWVLT0E1OWp3UmFOcklZVk4xbzBNUDBKazFob0o1aVN0WG9iaTNKbGlMVy1QSGxUMThpNnFOTE1mYkVmUnJlM3F6U1Z4RU8weHFWdURpVUU2aFRFaFNRM2liMjJUU2NxeDI4RmxtMnJYUGXSAbABQVVfeXFMTktacEFoRzJPOWhTZ0Q0Q1Jkd3VJSVNmUXQ4SzFSUEZZZ3NpQWZxMUxlRUtHSHJzM2RGckFSTkxjbnUzNFlyclFXajBLZ0t6SW5ycHd6RW9CRktUbnBRNm9vUmtZenJaT2h3N1ZUdXNkdGUyWXVGdmlLQjBxT1M4SW1Va0wwTDZwWURsaU15OEdkTl84LUtKZkh3ZS15ekdDUldlUDd3bzNaVVQ5SDR2X3Q?oc=5",
+   "title": "El Óbila comienza la liga en Santander",
+   "body": ""
+  },
+  {
+   "date": "2026-10-02",
+   "src": "Cadena SER",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN1BsUDZseWw0OTBZZC1QdS1TWmI1MUg2cXZOUFZXU0VXbTJJSGRDbmdicWVLT0E1OWp3UmFOcklZVk4xbzBNUDBKazFob0o1aVN0WG9iaTNKbGlMVy1QSGxUMThpNnFOTE1mYkVmUnJlM3F6U1Z4RU8weHFWdURpVUU2aFRFaFNRM2liMjJUU2NxeDI4RmxtMnJYUGU?oc=5",
    "title": "El Óbila comienza la liga en Santander",
    "body": ""
@@ -6512,14 +6513,7 @@
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPU09sakRkUVhXZm51OE05ZkFuVlFkZU5xUXJremFDQ0YwcGtsS3IzcEZGLVd2a0VKMmpMTk9KQ09rSGRqc1hZdUJZV0hVSXRMZTcyXzdITms0Wk1ScU9RWXdldE9jd3lfZkNCY2dwUXAtUFg1Mk1PNGhCT2hLMFdzbTV3aElpNjY2YlZ3eWdsTjJVZy1YNWtKMmZCUGtBNS1RYWxmcQ?oc=5",
    "title": "El Óbila recupera a Fran Quirós para la temporada 2026/27",
    "body": ""
-  },
-  {
-   "date": "2026-08-21",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWWZEenVPM0lRb0lidENKUUVBa21SMzdTbmJLYldBWWhmVkMxbkNkdFpXTVNiMm5BZUJBQ2FlZnlpYTVpNEZ1OXU3d1lWYlFueEpwNlU5WERreFJHeDJ2NDIzODlHUHd2LVFoT3JORThjNjJVcmcwSjhLVjRvN3VibW1GbmFnYVRIUS05WDZGYXprYzA3RXpiZzc4anJaem1MQk5kVW5CQmJlSS1iVm5yZEFNTFhUTWhBTWZ1b3hZU0V6RFBtUW9mQkljWVN2VklaS3JB?oc=5",
-   "title": "Ricardo Peñalver, con ficha en el primer equipo del Óbila",
-   "body": ""
   }
  ],
- "feb_updated": "2026-11-14T13:29:15Z"
+ "feb_updated": "2026-11-14T19:55:08Z"
 }
