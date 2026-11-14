@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T21:25:08Z",
+ "updated": "2026-11-14T06:12:42Z",
  "FEB": {
   "us": "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
   "t": [
@@ -6325,6 +6325,13 @@
    "body": ""
   },
   {
+   "date": "2026-11-04",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbURnbzhEbm05NV9ZaTJqckc3SldkcFk4dENLb05rZUNRYjZtTWZyYnEyVUQtVjJkeTIyWE41MmcwNElkV0ZUUkRrNVRIbG8tbnhMdldTU3FoNi0wN1hTQk5YTkxGMmcwbVBQb2NYd0VGT2oyc2Z6VGlXR0gxQjFuZm9LTDI2OEZJNWwyRFlXTDh6d3BSQ3dPaW1JX1JSdnkxd295TlNXM0hudU4wZGxn?oc=5",
+   "title": "El Hotel 4Postes no reacciona",
+   "body": ""
+  },
+  {
    "date": "2026-10-31",
    "src": "Diario de Ávila",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQS1Y3WTFfbUNXM2ZKOHM4RlFVZmVvazl5S1loUGd6NWdXcS1JY0tRcVc5SlkyMEQwQ2xrUVIxZmNnU2FYTURYcGFfVWVCMC1Pa3JaZHI3UVllT25JRjBmWS14TS1JVDJDSktUb3d4TnJPU184VEJJWWxfNmNRRHpUX3dNcXotbEhKamx1TEFHVlhuVks1YXcxY1NOOU1RM1dnSUc3OXhhTmlvNTBJU3NpUzFrdGN2ZnZtekVYdDN2Z0RTeVhxWDJqZDVJai10UQ?oc=5",
@@ -6403,16 +6410,16 @@
   },
   {
    "date": "2026-09-25",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY00yaHpHb21sdlN2ZTNMdTZZQXV4QkU3c2lZbXI2Z2NsZV9uLUxVX216dHpLY094bi1ZU1h5dWVyTkc2M2FDUGl2eW5JcE9wNWRrenRORjhyblg2eTRZS1hrdzB6WkoxWnlreWwtVVBCdTEtblRkclAzWlBXaDZQTGFKQWkwRnJ5dW0zelRwU201ZEdINDgtaG0zWUdVVXVMX0ZLbHNFNzVVVjJ4YjNzbA?oc=5",
-   "title": "Última prueba antes de la Liga",
+   "src": "Deportes Ávila",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRkVfSWZHN2lCWWNTU2R2Qlg1RHNkdmJ4aVFoZ1lINGJaaS1DZ2NTUWlHeHd1RVdrQmNfYS0xWC1ZdTYybG1YTXZjVU1KMXVnanZvWkhDUjhiVUozRmk3LVRxSkI1UHJrQXdvM0tKTC1KMFRrMEJSeXBqNXg0MmlYT0FzcDdCc1RNY2N1X1doS1h5NXZBU0VIUXhsTUJPZ1J3T0gwOFR3?oc=5",
+   "title": "El Óbila cierra su pretemporada en Madrid con la mirada puesta ya en Santander",
    "body": ""
   },
   {
    "date": "2026-09-25",
-   "src": "Deportes Ávila",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRkVfSWZHN2lCWWNTU2R2Qlg1RHNkdmJ4aVFoZ1lINGJaaS1DZ2NTUWlHeHd1RVdrQmNfYS0xWC1ZdTYybG1YTXZjVU1KMXVnanZvWkhDUjhiVUozRmk3LVRxSkI1UHJrQXdvM0tKTC1KMFRrMEJSeXBqNXg0MmlYT0FzcDdCc1RNY2N1X1doS1h5NXZBU0VIUXhsTUJPZ1J3T0gwOFR3?oc=5",
-   "title": "El Óbila cierra su pretemporada en Madrid con la mirada puesta ya en Santander",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY00yaHpHb21sdlN2ZTNMdTZZQXV4QkU3c2lZbXI2Z2NsZV9uLUxVX216dHpLY094bi1ZU1h5dWVyTkc2M2FDUGl2eW5JcE9wNWRrenRORjhyblg2eTRZS1hrdzB6WkoxWnlreWwtVVBCdTEtblRkclAzWlBXaDZQTGFKQWkwRnJ5dW0zelRwU201ZEdINDgtaG0zWUdVVXVMX0ZLbHNFNzVVVjJ4YjNzbA?oc=5",
+   "title": "Última prueba antes de la Liga",
    "body": ""
   },
   {
@@ -6512,14 +6519,7 @@
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZlhhY1d5aVNqQzMxS1ctOHJCMGxvV0drLWJrbHI4OHN6Tm9SOXFtSzZrQXE5V3FvaVBiVzFma1hablhvRkhBSUwyZE5CSWNxaThlQWhwMjRFWmhlWURzbDM4bkNnVnRNcXBHbGlwZnJJcXhGWnZ2YXlIUWoxNkRTbDJlS0hfcDB2U2lpdTMzMlRVMjhaZzQ0?oc=5",
    "title": "El base Anxo Iglesias, segundo fichaje del Óbila",
    "body": ""
-  },
-  {
-   "date": "2026-08-11",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZENZemktWkZJblhHMGVuY3F6d2E2QndfWWZNOGQwU2JxT1Bzc0xaN0tEd29YckwyRU55dWZTQVZHNjhyVWltX0NSWGtoTEcwYXpmVUpUSW52UGNIcnc0NjQyVlA4UlR3LTF5SDBvMU5DMXNWMGk2NVJTOG9sSlNZZ2x6TVI5N19acHA0OEhyWk9kY0R3RnJGRUNmRXNITHBLWEdCekt4RDRWRlA3QVNZckxYYjd2MzNxRXpuZVVJX2dUR05HVmFLc01aVThGTXNHNkQ3TVlR?oc=5",
-   "title": "Mauro Carretero se consolida en el primer equipo del Óbila",
-   "body": ""
   }
  ],
- "feb_updated": "2026-11-13T21:25:00Z"
+ "feb_updated": "2026-11-14T06:12:35Z"
 }
