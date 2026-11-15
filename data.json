@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T01:00:02Z",
+ "updated": "2026-11-15T10:45:04Z",
  "FEB": {
   "us": "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
   "t": [
@@ -14,6 +14,24 @@
    ],
    [
     2,
+    "CONSTRUCCIONES GONZALO CRESPO PAS PIÉLAGOS",
+    7,
+    6,
+    1,
+    576,
+    501
+   ],
+   [
+    3,
+    "DE MORRO FINO CANTBASKET04",
+    7,
+    6,
+    1,
+    638,
+    583
+   ],
+   [
+    4,
     "RESTAURANTE LOS ARCOS CB SOLARES",
     6,
     5,
@@ -22,34 +40,25 @@
     442
    ],
    [
-    3,
-    "CONSTRUCCIONES GONZALO CRESPO PAS PIÉLAGOS",
-    6,
-    5,
-    1,
-    490,
-    440
-   ],
-   [
-    4,
-    "DE MORRO FINO CANTBASKET04",
-    6,
-    5,
-    1,
-    563,
-    519
-   ],
-   [
     5,
     "ULACIA ZKE",
-    6,
+    7,
     4,
-    2,
-    499,
-    451
+    3,
+    567,
+    527
    ],
    [
     6,
+    "ELABORADOS NATURALES VALLE DE EGÜÉS",
+    7,
+    4,
+    3,
+    577,
+    585
+   ],
+   [
+    7,
     "IRUKI TAKE",
     6,
     3,
@@ -58,67 +67,58 @@
     470
    ],
    [
-    7,
-    "ELABORADOS NATURALES VALLE DE EGÜÉS",
-    6,
-    3,
-    3,
-    490,
-    503
-   ],
-   [
     8,
-    "UNIVERSIDAD DEUSTO LOIOLA INDAUTXU",
-    6,
+    "SAN PRUDENCIO",
+    7,
     3,
-    3,
-    476,
-    500
+    4,
+    529,
+    530
    ],
    [
     9,
-    "SAN PRUDENCIO",
-    6,
-    2,
+    "UNIVERSIDAD DEUSTO LOIOLA INDAUTXU",
+    7,
+    3,
     4,
-    453,
-    462
+    537,
+    586
    ],
    [
     10,
-    "LISDATA BEZANA",
-    6,
-    2,
+    "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
+    7,
+    3,
     4,
-    478,
-    507
+    585,
+    665
    ],
    [
     11,
-    "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
-    6,
+    "LISDATA BEZANA",
+    7,
     2,
-    4,
-    486,
-    572
+    5,
+    571,
+    606
    ],
    [
     12,
     "TABIRAKO BAQUE",
-    6,
+    7,
     1,
-    5,
-    436,
-    452
+    6,
+    500,
+    527
    ],
    [
     13,
     "BALONCESTO LA FLECHA",
-    6,
+    7,
     1,
-    5,
-    465,
-    557
+    6,
+    547,
+    644
    ],
    [
     14,
@@ -137,39 +137,44 @@
     "84-61",
     "14/11",
     "https://www.feb.es/competiciones/Partido.aspx?p=2536705"
-   ]
-  ],
-  "j2": [
+   ],
    [
     "TABIRAKO BAQUE",
     "DE MORRO FINO CANTBASKET04",
-    "14/11 · 19:00",
+    "64-75",
+    "14/11",
     "https://www.feb.es/competiciones/Partido.aspx?p=2536703"
    ],
    [
     "SAN PRUDENCIO",
     "ULACIA ZKE",
-    "14/11 · 19:00",
+    "76-68",
+    "14/11",
     "https://www.feb.es/competiciones/Partido.aspx?p=2536707"
    ],
    [
     "LISDATA BEZANA",
     "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
-    "14/11 · 19:00",
+    "93-99",
+    "14/11",
     "https://www.feb.es/competiciones/Partido.aspx?p=2536709"
    ],
    [
     "ELABORADOS NATURALES VALLE DE EGÜÉS",
     "BALONCESTO LA FLECHA",
-    "14/11 · 20:00",
+    "87-82",
+    "14/11",
     "https://www.feb.es/competiciones/Partido.aspx?p=2536708"
    ],
    [
     "UNIVERSIDAD DEUSTO LOIOLA INDAUTXU",
     "CONSTRUCCIONES GONZALO CRESPO PAS PIÉLAGOS",
-    "14/11 · 20:30",
+    "61-86",
+    "14/11",
     "https://www.feb.es/competiciones/Partido.aspx?p=2536704"
-   ],
+   ]
+  ],
+  "j2": [
    [
     "RESTAURANTE LOS ARCOS CB SOLARES",
     "IRUKI TAKE",
@@ -6515,5 +6520,5 @@
    "body": ""
   }
  ],
- "feb_updated": "2026-11-14T19:55:08Z"
+ "feb_updated": "2026-11-15T10:45:03Z"
 }
