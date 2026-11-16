@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T18:47:06Z",
+ "updated": "2026-11-16T00:59:21Z",
  "FEB": {
   "us": "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
   "t": [
@@ -33,11 +33,11 @@
    [
     4,
     "RESTAURANTE LOS ARCOS CB SOLARES",
-    6,
+    7,
     5,
-    1,
-    502,
-    442
+    2,
+    581,
+    529
    ],
    [
     5,
@@ -50,21 +50,21 @@
    ],
    [
     6,
+    "IRUKI TAKE",
+    7,
+    4,
+    3,
+    561,
+    549
+   ],
+   [
+    7,
     "ELABORADOS NATURALES VALLE DE EGÜÉS",
     7,
     4,
     3,
     577,
     585
-   ],
-   [
-    7,
-    "IRUKI TAKE",
-    6,
-    3,
-    3,
-    474,
-    470
    ],
    [
     8,
@@ -172,15 +172,16 @@
     "61-86",
     "14/11",
     "https://www.feb.es/competiciones/Partido.aspx?p=2536704"
-   ]
-  ],
-  "j2": [
+   ],
    [
     "RESTAURANTE LOS ARCOS CB SOLARES",
     "IRUKI TAKE",
-    "15/11 · 18:00",
+    "79-87",
+    "15/11",
     "https://www.feb.es/competiciones/Partido.aspx?p=2536706"
-   ],
+   ]
+  ],
+  "j2": [
    [
     "IRUKI TAKE",
     "SAN PRUDENCIO",
@@ -6520,5 +6521,5 @@
    "body": ""
   }
  ],
- "feb_updated": "2026-11-15T18:47:05Z"
+ "feb_updated": "2026-11-16T00:59:12Z"
 }
