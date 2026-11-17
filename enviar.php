@@ -28,9 +28,9 @@ register_shutdown_function(function () {
 if (($_SERVER['REQUEST_METHOD'] ?? '') === 'OPTIONS') { salida([]); }
 
 // Cargar WordPress (si está) para usar su configuración de correo
-$wp = is_file(__DIR__ . '/wp-load.php') ? __DIR__ . '/wp-load.php' : dirname(__DIR__) . '/wp-load.php';
+$obila_wpload = is_file(__DIR__ . '/wp-load.php') ? __DIR__ . '/wp-load.php' : dirname(__DIR__) . '/wp-load.php';
 $wpok = false;
-if (is_file($wp)) { try { require_once $wp; $wpok = function_exists('wp_mail'); } catch (Throwable $e) { $ERR = 'wp-load: ' . $e->getMessage(); } }
+if (is_file($obila_wpload)) { try { require_once $obila_wpload; $wpok = function_exists('wp_mail'); } catch (Throwable $e) { $ERR = 'wp-load: ' . $e->getMessage(); } }
 if ($wpok) add_action('wp_mail_failed', function ($er) { global $ERR; $ERR = $er->get_error_message(); });
 
 function enviar_correo($asunto, $cuerpo, $cab = []) {
