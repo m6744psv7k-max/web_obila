@@ -154,6 +154,21 @@ nav a.act{opacity:1;border-bottom:3px solid var(--gr)}
 .rhd{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin:26px 0 12px}.rh{margin:0;font-size:26px}.cred{background:#0f2238;color:#fff;padding:6px 14px;border-radius:99px;font-size:13px}.cred b{color:#c6ff00}.cred2{margin:12px 0 0;font-size:13px;color:var(--mut)}.cred2 b{color:#c6ff00}
 .mdl{background:var(--card)!important;border-color:var(--bd)!important}.mdl,.mdl b{color:var(--tx)!important}.mdl small{color:var(--mut)!important}.cred{border:1px solid #c6ff0088}.rp{background:var(--card)!important;border-color:var(--bd)!important;color:var(--tx)!important}.rp b{color:var(--tx)!important;font-weight:800}.rp a{color:#a5cf63!important;font-weight:600}.rp .rn{color:#c6ff00!important}.rp img{background:#0f2238}.ros{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}.rn{flex:none;width:26px;text-align:center;font-weight:800;font-size:18px;color:var(--ac,#2f6fb5)}.rp{display:flex;align-items:center;gap:12px;padding:10px 12px;background:#fff;border:1px solid var(--bd,#dbe4ee);border-radius:14px;box-shadow:0 2px 8px #0001}.rp img{width:54px;height:54px;border-radius:50%;object-fit:cover;flex:none;background:#eef3f8}.rp img.cr{object-fit:contain;padding:3px;background:none}.rp b{display:block;font-size:14.5px;line-height:1.2}.rp a{font-size:12px;color:var(--mut)}
 #lbx .nv{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;background:#fff;color:#0f2238;font-size:24px;display:grid;place-items:center;cursor:pointer;user-select:none}#lbx .nv.l{left:12px}#lbx .nv.r{right:12px}#lbx .ct{position:absolute;bottom:14px;left:0;right:0;text-align:center;color:#fff;font-size:13px}
+
+#games .empty{display:none}.wkb{display:grid;gap:22px;margin:6px 0 26px}.wk{border-radius:20px;overflow:hidden;background:linear-gradient(135deg,var(--c1),var(--c2));box-shadow:0 10px 28px #0004;padding:16px 0 14px;position:relative}
+.wk:before{content:"";position:absolute;inset:0;background-image:radial-gradient(#fff 1.2px,transparent 1.3px);background-size:46px 46px;opacity:.08;pointer-events:none}
+.wk-h{display:flex;align-items:center;gap:12px;padding:0 18px 12px;position:relative}.wk-ic{font-size:30px}.wk-h b{display:block;font-size:20px;letter-spacing:.08em;color:#fff}.wk-h small{color:#fffc;font-size:13px}
+.wk-ar{margin-left:auto;display:flex;gap:6px}.wk-ar button{width:34px;height:34px;border-radius:50%;border:0;background:#ffffff30;color:#fff;font-size:20px;cursor:pointer}.wk-ar button:hover{background:#ffffff55}
+.wk-tr{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 18px 4px;scrollbar-width:none;position:relative}.wk-tr::-webkit-scrollbar{display:none}
+.wc{flex:0 0 calc((100% - 24px)/3);min-width:250px;scroll-snap-align:start;background:#fff;color:#0f2238;border-radius:14px;padding:12px 12px 10px;display:flex;flex-direction:column;gap:8px;box-shadow:0 4px 12px #0003}
+.wc-t{display:flex;justify-content:space-between;align-items:center;gap:6px;font-size:11.5px}.wc-t span:first-child{background:#0f2238;color:#c6ff00;padding:3px 9px;border-radius:7px;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}.wc-t span:last-child{color:#4b6178;font-weight:700;white-space:nowrap}
+.wc-m{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:6px;text-align:center}.wc-m .tm{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:12.5px;font-weight:700;line-height:1.15;min-height:74px}.wc-m .tm .bd{width:40px;height:40px;flex:none}.wc-m .tm span{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.wc-m .tm.us span{color:#0f6b2f}.wc-m .vs{font-weight:800;color:#f5a02e;font-size:15px}.wc-m .sc{font-weight:800;font-size:21px;white-space:nowrap}.wc-m .sc i{font-style:normal;opacity:.35}.wc-m .sc b.w{color:#0f8a3c}
+.wc-b{font-size:12px;font-weight:700;text-align:center;border-radius:8px;padding:4px 6px;background:#eef3f8;color:#2f4f6f}.wc-b.w{background:#d8f5e1;color:#0f6b2f}.wc-b.l{background:#fde2e2;color:#a02020}
+.wc.pend{justify-content:center;text-align:center;color:#4b6178;font-size:13px;gap:4px}
+.wk-d{display:flex;justify-content:center;gap:6px;margin-top:10px;position:relative}.wk-d i{width:7px;height:7px;border-radius:50%;background:#fff5}.wk-d i.on{background:#fff;width:18px;border-radius:4px}
+.wk-e{padding:6px 18px 10px;color:#fffd;position:relative}
+@media(max-width:900px){.wc{flex-basis:calc((100% - 12px)/2)}}@media(max-width:560px){.wc{flex-basis:86%}.wk-h b{font-size:17px}}
 #lbx{position:fixed;inset:0;z-index:50;background:#000d;display:none;align-items:center;justify-content:center;padding:16px;cursor:zoom-out}#lbx.o{display:flex}#lbx img{max-width:100%;max-height:100%;border-radius:10px}
 .cr{background:#fff;border-radius:50%;padding:5px;object-fit:contain;box-sizing:border-box}.crs.lg,.bd.lg{background:none;padding:0;object-fit:cover}
 .crs{width:22px;height:22px;border-radius:50%;background:#fff;padding:2px;object-fit:contain;box-sizing:border-box;vertical-align:middle;margin-right:6px}
@@ -201,7 +216,7 @@ a.s3{text-decoration:none;color:inherit;cursor:pointer;transition:transform .2s,
 <small style="color:var(--mut);display:block;margin-top:14px">Tercera FEB 2026/27 · Liga Regular. Fuente: baloncestoenvivo.feb.es (FEB). <span id="febn">Clasificación y resultados actualizados hasta la jornada 2.</span></small></section>
 <section class="pg" id="cantera"><h2>Cantera y equipos</h2><div class="chips" id="chips"></div><div class="grid" id="teams"></div><small style="color:var(--mut);display:block;margin-top:14px">Calendarios y resultados de la FBCyL (fbcyl.es) a 13 de noviembre de 2026. ★ marca a nuestro equipo en la clasificación.</small></section>
 <section class="pg" id="noticias"><h2>Noticias</h2><div class="grid" id="news"></div></section>
-<section class="pg" id="partidos"><h2>Partidos</h2><div class="grid" id="games"></div></section>
+<section class="pg" id="partidos"><h2>Partidos</h2><div class="wkb" id="wkb"></div><div class="grid" id="games"></div></section>
 
 <section class="pg" id="galeria"><h2>Galería</h2><div class="gs" id="gal"></div></section>
 <section class="pg" id="historia"><h2>Historia</h2>
@@ -258,7 +273,7 @@ a.s3{text-decoration:none;color:inherit;cursor:pointer;transition:transform .2s,
 <tr><td>Publicar imágenes de actividades del club (galería, noticias, redes)</td><td>Imagen de jugadores/as, técnicos y público</td><td>Consentimiento (art. 6.1.a), y de madres, padres o tutores en el caso de menores</td><td>Hasta que se retire el consentimiento o se solicite la retirada</td></tr></table>
 <p>No se toman decisiones automatizadas ni se elaboran perfiles. Los campos del formulario son los mínimos necesarios; si no los facilitas, no podremos tramitar tu solicitud.</p>
 <h3>3. Menores de edad</h3><p>Los menores de 14 años no pueden dar su consentimiento por sí mismos (art. 7 LOPDGDD): el formulario debe rellenarlo su padre, madre o tutor legal. En el caso de menores de 18 años, el club solicita la autorización de la familia para publicar su imagen.</p>
-<h3>4. Destinatarios</h3><p>No cedemos tus datos a terceros salvo obligación legal. Pueden acceder a ellos, como encargados del tratamiento, los proveedores que dan soporte técnico al sitio (alojamiento web y almacenamiento de datos): <span class="lg-todo">[completar con el proveedor actual de alojamiento y base de datos]</span>. La gestión federativa de licencias y competiciones (Federación de Baloncesto de Castilla y León y FEB) se rige por su propia información de privacidad.</p>
+<h3>4. Destinatarios</h3><p>No cedemos tus datos a terceros salvo obligación legal. Pueden acceder a ellos, como encargados del tratamiento, los proveedores que dan soporte técnico al sitio (alojamiento web y almacenamiento de datos): el proveedor de alojamiento web del sitio <span class="lg-todo">[nombre del proveedor de alojamiento]</span> y el proveedor de correo electrónico (Google, Gmail), donde se reciben las solicitudes de inscripción en la cuenta obilacenter@gmail.com. La gestión federativa de licencias y competiciones (Federación de Baloncesto de Castilla y León y FEB) se rige por su propia información de privacidad.</p>
 <p>Además, al visitar la web, el servidor de alojamiento y el proveedor de tipografías (Google Fonts) reciben tu dirección IP y datos técnicos del navegador necesarios para mostrar la página; consulta la <a href="#cookies">Política de cookies</a>.</p>
 <h3>5. Tus derechos</h3><p>Puedes ejercer los derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad, y retirar tu consentimiento en cualquier momento (sin que ello afecte a lo tratado antes), escribiendo a <a href="mailto:obilacenter@gmail.com?subject=Protección de datos">obilacenter@gmail.com</a> e indicando el derecho que ejerces y una copia de tu documento de identidad. Si consideras que no se han atendido tus derechos, puedes reclamar ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es" target="_blank" rel="noopener">www.aepd.es</a>).</p>
 <h3>6. Seguridad</h3><p>Aplicamos medidas técnicas y organizativas razonables para proteger tus datos frente a accesos no autorizados, pérdida o alteración. El acceso a los datos de inscripciones está restringido a las personas autorizadas del club.</p>
@@ -319,7 +334,16 @@ form('f-club',d=>DB.doc('settings/club').set({...S.club,...d}));
 form('f-news',d=>DB.collection('news').add({...d,date:today()}));
 form('f-games',d=>DB.collection('games').add({...d,ours:d.ours===''?null:+d.ours,theirs:d.theirs===''?null:+d.theirs}));
 form('f-players',d=>DB.collection('players').add({...d,num:d.num===''?null:+d.num}));
-form('f-insc',async d=>{try{await DB.collection('inscripciones').add({...d,date:today()});$('imsg').textContent='¡Solicitud enviada! Te contactaremos pronto.'}catch(x){$('imsg').textContent='Para inscribirte, contacta directamente con el club (datos arriba).';}});
+const MAIL_URL='enviar.php';
+(function(){const f=$('f-insc');if(!f)return;const t0=Date.now();
+ f.insertAdjacentHTML('beforeend','<input name="web" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">');
+ f.addEventListener('submit',async e=>{e.preventDefault();const m=$('imsg'),bt=f.querySelector('button');const fd=new FormData(f);const d=Object.fromEntries(fd);fd.append('t',t0);
+  m.textContent='Enviando…';bt.disabled=true;let ok=false;
+  let em='';try{const r=await fetch(MAIL_URL,{method:'POST',body:fd});const tx=await r.text();let j={};try{j=JSON.parse(tx)}catch(_){em='el servidor no ha respondido como se esperaba (HTTP '+r.status+')'}ok=!!j.ok;if(!ok&&j.msg)em=j.msg}catch(x){em='no se ha podido contactar con el servidor'}
+  if(DB){try{await DB.collection('inscripciones').add({name:d.name,age:d.age,contact:d.contact,date:today()});ok=true}catch(x){}}
+  bt.disabled=false;
+  if(ok){m.textContent='¡Solicitud enviada! Te contactaremos pronto.';f.reset()}
+  else m.textContent='No se ha podido enviar'+(em?' ('+em+')':'')+'. Escríbenos a obilacenter@gmail.com o llama al 920 25 71 71.'})})();
 document.addEventListener('click',async e=>{const b=e.target.closest('button[data-id]');if(!b||!confirm('¿Borrar este elemento?'))return;
  try{await DB.doc(b.dataset.c+'/'+b.dataset.id).delete()}catch(x){alert('No se pudo borrar')}});
 
@@ -423,7 +447,7 @@ renderT();
 
 $('nextm2').innerHTML=$('nextm').innerHTML;
 const PG=['equipo','cantera','noticias','partidos','plantilla','galeria','historia','patrocinadores','aficion','contacto','aviso-legal','privacidad','cookies'];
-function route(){let p=(location.hash||'').replace(/^#\/?/,''),q=p;if(p==='plantilla')p=q='equipo';if(/^t-/.test(p)&&STAT[p.slice(2)]){q='teamp';renderTP(p.slice(2))}else if(!PG.includes(p)){p='home';q=p}
+function route(){try{if(/^#\/?partidos/.test(location.hash))renderWk()}catch(e){}let p=(location.hash||'').replace(/^#\/?/,''),q=p;if(p==='plantilla')p=q='equipo';if(/^t-/.test(p)&&STAT[p.slice(2)]){q='teamp';renderTP(p.slice(2))}else if(!PG.includes(p)){p='home';q=p}
  document.querySelectorAll('section.pg').forEach(s=>{const on=s.id===q;s.style.display=on?'block':'none';if(on)s.classList.add('in')});
  const hm=p==='home';document.querySelector('.hero').style.display=hm?'':'none';$('stats').style.display='none';
  document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('act',a.getAttribute('href')==='#'+p));
@@ -471,7 +495,7 @@ var DATA_URL='https://m6744psv7k-max.github.io/web_obila/data.json';
 function applyData(d){if(!d)return;
  if(d.FEB)Object.assign(FEB,d.FEB);if(d.STAT)Object.assign(STAT,d.STAT);
  NEWS_EXT=[...(d.news_manual||[]),...(d.news_auto||[])];
- try{feb()}catch(e){}try{renderNXS();if(/^#t-/.test(location.hash))renderTP(location.hash.slice(3))}catch(e){}try{renderT()}catch(e){}try{render()}catch(e){}
+ try{feb()}catch(e){}try{renderNXS();if(/^#t-/.test(location.hash))renderTP(location.hash.slice(3))}catch(e){}try{renderT()}catch(e){}try{render()}catch(e){}try{renderWk()}catch(e){}
  if(d.feb_updated&&$('febn'))$('febn').textContent='Clasificación y resultados actualizados automáticamente el '+new Date(d.feb_updated).toLocaleString('es-ES',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})+'.';
  if(d.updated&&$('ft')){const o=$('dtu');if(o)o.remove();$('ft').insertAdjacentHTML('beforeend','<span id="dtu"> · Datos actualizados: '+new Date(d.updated).toLocaleString('es-ES',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})+'</span>')}}
 function loadData(){const q='?'+Date.now();return fetch(DATA_URL+q).then(r=>r.ok?r.json():Promise.reject()).catch(()=>fetch('data.json'+q).then(r=>r.ok?r.json():null)).then(applyData).catch(()=>{})}
@@ -555,4 +579,35 @@ function renderPF(){const b=$('pfotos');if(!b)return;b.innerHTML=`<button class=
  function sh(i){ix=(i+PFOTOS.length)%PFOTOS.length;lb.innerHTML='<img src="'+PFOTOS[ix]+'" alt=""><div class="nv l" data-d="-1">‹</div><div class="nv r" data-d="1">›</div><div class="ct">Media day · '+(ix+1)+' / '+PFOTOS.length+'</div>';lb.classList.add('o')}
  document.addEventListener('click',e=>{const f=e.target.closest('.mdl');if(f){sh(0);return}const n=e.target.closest('#lbx .nv');if(n){sh(ix+ +n.dataset.d);return}if(lb.classList.contains('o'))lb.classList.remove('o')});
  document.addEventListener('keydown',e=>{if(!lb.classList.contains('o'))return;if(e.key==='Escape')lb.classList.remove('o');if(e.key==='ArrowRight')sh(ix+1);if(e.key==='ArrowLeft')sh(ix-1)});renderPF();renderRoster()})();
+
+/* ===== Banners de partidos de la semana ===== */
+function wkNm(s){return s.replace(/\bHOTEL 4POSTES.*$/i,'Óbila Hotel 4Postes').toLowerCase().replace(/(^|\s)\S/g,c=>c.toUpperCase())}
+function wkRange(off){const n=new Date(),m=new Date(n.getFullYear(),n.getMonth(),n.getDate()-((n.getDay()+6)%7)+7*off);return[m,new Date(m.getFullYear(),m.getMonth(),m.getDate()+6,23,59,59)]}
+function wkItems(off){const [a,b]=wkRange(off),out=[],seen=new Set();
+ const add=(dt,t,h,aw,hs,as,cat)=>{if(dt<a||dt>b)return;const k=dt.getTime()+h+aw;if(seen.has(k))return;seen.add(k);out.push({dt,t,h,a:aw,hs,as,cat})};
+ TEAMS.forEach(t=>((STAT[t[0]]||{}).matches||[]).forEach(m=>{if(!(isOb(m.h)||isOb(m.a)))return;const d=m.d.split('-').map(Number),hm=(m.t||'').split(':');add(new Date(d[0],d[1]-1,d[2],+hm[0]||12,+hm[1]||0),m.t||'',m.h,m.a,m.hs,m.as,t[2])}));
+ const yr=mo=>mo>=7?2026:2027;
+ (FEB.j1||[]).forEach(r=>{if(!(isOb(r[0])||isOb(r[1])))return;const x=String(r[3]).match(/(\d\d)\/(\d\d)/),s=String(r[2]).match(/(\d+)\s*-\s*(\d+)/);if(x&&s)add(new Date(yr(+x[2]),+x[2]-1,+x[1],12,0),'',wkNm(r[0]),wkNm(r[1]),+s[1],+s[2],'Tercera FEB · Primer equipo')});
+ (FEB.j2||[]).forEach(r=>{if(!(isOb(r[0])||isOb(r[1])))return;const x=String(r[2]).match(/(\d\d)\/(\d\d)\s·\s(\d\d):(\d\d)/);if(x)add(new Date(yr(+x[2]),+x[2]-1,+x[1],+x[3],+x[4]),x[3]+':'+x[4],wkNm(r[0]),wkNm(r[1]),null,null,'Tercera FEB · Primer equipo')});
+ return out.sort((p,q)=>p.dt-q.dt)}
+function wkCard(m){const DOW=['Dom','Lun','Mar','Mié','Jue','Vie','Sáb'],d=m.dt,pd=n=>String(n).padStart(2,'0'),has=m.hs!==null&&m.hs!==undefined&&m.hs!=='',hO=isOb(m.h),aO=isOb(m.a);
+ const when=DOW[d.getDay()]+' '+pd(d.getDate())+'/'+pd(d.getMonth()+1)+(m.t?' · '+m.t:'');
+ let mid=has?`<div class="sc"><b class="${m.hs>m.as?'w':''}">${m.hs}</b> <i>–</i> <b class="${m.as>m.hs?'w':''}">${m.as}</b></div>`:'<div class="vs">VS</div>';
+ let foot;if(hO&&aO)foot='<div class="wc-b">Derbi Óbila 💚</div>';else if(has){const us=hO?m.hs:m.as,th=hO?m.as:m.hs;foot=us>th?'<div class="wc-b w">✅ Victoria</div>':us<th?'<div class="wc-b l">Derrota</div>':'<div class="wc-b">Empate</div>'}else foot=hO?'<div class="wc-b">🏠 Jugamos en casa · C.U.M. Carlos Sastre</div>':'<div class="wc-b">🚌 Jugamos fuera</div>';
+ const T=(n,o)=>`<div class="tm${o?' us':''}">${bdg(n,FEB.us)}<span>${esc(n)}</span></div>`;
+ return `<div class="wc"><div class="wc-t"><span>${esc(m.cat.split(' · ')[0]==='Tercera FEB'?'Primer equipo · 3ª FEB':m.cat.split(' · ')[0])}</span><span>${when}</span></div><div class="wc-m">${T(m.h,hO)}${mid}${T(m.a,aO)}</div>${foot}</div>`}
+function wkLabel(off){const[a,b]=wkRange(off),M=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];return a.getDate()+(a.getMonth()!==b.getMonth()?' '+M[a.getMonth()]:'')+' – '+b.getDate()+' '+M[b.getMonth()]}
+function renderWk(){const el=document.getElementById('wkb');if(!el||typeof STAT==='undefined')return;
+ const B=[[0,'🏀','ESTA SEMANA','Partidos de esta semana','#0f4c81','#1b7a4a'],[-1,'📊','JORNADA PASADA','Resultados de la semana anterior','#2b3a67','#3d2c8d'],[1,'📅','PRÓXIMA SEMANA','Los partidos de la semana que viene','#8a4b08','#b8741a']];
+ el.innerHTML=B.map(([off,ic,tt,sub,c1,c2])=>{const it=wkItems(off);let cards=it.map(wkCard).join('');
+  if(off===1&&!it.some(m=>/Tercera FEB/.test(m.cat)))cards+='<div class="wc pend"><b>Primer equipo</b>Tercera FEB · horario pendiente de publicar por la Federación</div>';
+  if(!cards)cards='<div class="wk-e">No hay partidos programados.</div>';
+  return `<div class="wk" style="--c1:${c1};--c2:${c2}" data-off="${off}"><div class="wk-h"><span class="wk-ic">${ic}</span><div><b>${tt}</b><small>${wkLabel(off)} · ${it.length} partido${it.length===1?'':'s'}</small></div><div class="wk-ar"><button type="button" data-d="-1" aria-label="Anterior">‹</button><button type="button" data-d="1" aria-label="Siguiente">›</button></div></div><div class="wk-tr">${cards}</div><div class="wk-d"></div></div>`}).join('');
+ el.querySelectorAll('.wk').forEach(wkDots)}
+function wkStep(tr,d){const c=tr.firstElementChild;if(!c)return;const w=c.offsetWidth+12;if(d>0&&tr.scrollLeft+tr.clientWidth>=tr.scrollWidth-6)tr.scrollTo({left:0,behavior:'smooth'});else if(d<0&&tr.scrollLeft<=2)tr.scrollTo({left:tr.scrollWidth,behavior:'smooth'});else tr.scrollBy({left:d*w,behavior:'smooth'})}
+function wkDots(w){const tr=w.querySelector('.wk-tr'),n=tr.children.length,ds=w.querySelector('.wk-d');if(!ds)return;const c=tr.firstElementChild;if(!c){ds.innerHTML='';return}const per=Math.max(1,Math.round(tr.clientWidth/(c.offsetWidth+12))||1),pg=Math.max(1,Math.ceil(n/per));ds.innerHTML=pg>1?Array.from({length:pg},(_,i)=>'<i></i>').join(''):'';const i=Math.min(pg-1,Math.round(tr.scrollLeft/(c.offsetWidth+12)/per));[...ds.children].forEach((e,k)=>e.classList.toggle('on',k===i))}
+document.addEventListener('click',e=>{const b=e.target.closest('.wk-ar button');if(b){const tr=b.closest('.wk').querySelector('.wk-tr');tr._p=Date.now()+15000;wkStep(tr,+b.dataset.d)}});
+document.addEventListener('scroll',e=>{const t=e.target;if(t&&t.classList&&t.classList.contains('wk-tr'))wkDots(t.closest('.wk'))},true);
+['mouseenter','touchstart'].forEach(ev=>document.addEventListener(ev,e=>{const t=e.target.closest&&e.target.closest('.wk-tr');if(t)t._p=Date.now()+15000},true));
+setInterval(()=>{document.querySelectorAll('.wk-tr').forEach(tr=>{if(!tr.offsetParent||(tr._p&&tr._p>Date.now()))return;wkStep(tr,1)})},4500);
 </script></body></html>
