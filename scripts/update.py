@@ -6,6 +6,7 @@ from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
+from zoneinfo import ZoneInfo
 
 FEB_URL = 'https://www.feb.es/competiciones/resultados/tercerafeb/3/2026'
 US = 'HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR'
@@ -71,7 +72,36 @@ def parse_news(xml_text, old, strict=True):
     out.sort(key=lambda n: n['date'], reverse=True)
     return out[:30]
 
+def hay_partido_ahora(data):
+    """True si algún partido de la jornada actual está empezando o en juego (de -15 min a +2,5 h)."""
+    ahora = datetime.now(ZoneInfo('Europe/Madrid')).replace(tzinfo=None)
+    for m in data.get('FEB', {}).get('j2', []):
+        x = re.search(r'(\d\d)/(\d\d)\s·\s(\d\d):(\d\d)', str(m[2]))
+        if not x: continue
+        d, mo, h, mi = map(int, x.groups())
+        ini = datetime(2026 if mo >= 7 else 2027, mo, d, h, mi)
+        if ini - timedelta(minutes=15) <= ahora <= ini + timedelta(minutes=150): return True
+    return False
+
+def main_live():
+    """Modo directo: solo clasificación/resultados, y solo escribe si hay cambios."""
+    data = json.load(open('data.json', encoding='utf-8'))
+    if not hay_partido_ahora(data):
+        print('NO_LIVE: sin partidos en juego'); return
+    try:
+        nuevo = parse_feb(get(FEB_URL))
+    except Exception as e:
+        print('AVISO FEB:', e); return
+    if nuevo == data.get('FEB'):
+        print('Sin cambios'); return
+    data['FEB'] = nuevo
+    ahora = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+    data['feb_updated'] = ahora; data['updated'] = ahora
+    json.dump(data, open('data.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    print('FEB actualizado en directo')
+
 def main():
+    if '--live' in sys.argv: return main_live()
     data = json.load(open('data.json', encoding='utf-8'))
     failed = False
     try:
