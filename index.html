@@ -155,7 +155,7 @@ nav a.act{opacity:1;border-bottom:3px solid var(--gr)}
 .mdl{background:var(--card)!important;border-color:var(--bd)!important}.mdl,.mdl b{color:var(--tx)!important}.mdl small{color:var(--mut)!important}.cred{border:1px solid #c6ff0088}.rp{background:var(--card)!important;border-color:var(--bd)!important;color:var(--tx)!important}.rp b{color:var(--tx)!important;font-weight:800}.rp a{color:#a5cf63!important;font-weight:600}.rp .rn{color:#c6ff00!important}.rp img{background:#0f2238}.ros{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}.rn{flex:none;width:26px;text-align:center;font-weight:800;font-size:18px;color:var(--ac,#2f6fb5)}.rp{display:flex;align-items:center;gap:12px;padding:10px 12px;background:#fff;border:1px solid var(--bd,#dbe4ee);border-radius:14px;box-shadow:0 2px 8px #0001}.rp img{width:54px;height:54px;border-radius:50%;object-fit:cover;flex:none;background:#eef3f8}.rp img.cr{object-fit:contain;padding:3px;background:none}.rp b{display:block;font-size:14.5px;line-height:1.2}.rp a{font-size:12px;color:var(--mut)}
 #lbx .nv{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;background:#fff;color:#0f2238;font-size:24px;display:grid;place-items:center;cursor:pointer;user-select:none}#lbx .nv.l{left:12px}#lbx .nv.r{right:12px}#lbx .ct{position:absolute;bottom:14px;left:0;right:0;text-align:center;color:#fff;font-size:13px}
 
-#games .empty{display:none}.wkb{display:grid;gap:22px;margin:6px 0 26px}.wk{border-radius:20px;overflow:hidden;background:linear-gradient(135deg,var(--c1),var(--c2));box-shadow:0 10px 28px #0004;padding:16px 0 14px;position:relative}
+#games .empty{display:none}.wk-more{text-align:right;margin:8px 4px 0}.wk-more a{color:var(--ac,#a5cf63);font-weight:700;text-decoration:none}.wkb{display:grid;gap:22px;margin:6px 0 26px}.wk{border-radius:20px;overflow:hidden;background:linear-gradient(135deg,var(--c1),var(--c2));box-shadow:0 10px 28px #0004;padding:16px 0 14px;position:relative}
 .wk:before{content:"";position:absolute;inset:0;background-image:radial-gradient(#fff 1.2px,transparent 1.3px);background-size:46px 46px;opacity:.08;pointer-events:none}
 .wk-h{display:flex;align-items:center;gap:12px;padding:0 18px 12px;position:relative}.wk-ic{font-size:30px}.wk-h b{display:block;font-size:20px;letter-spacing:.08em;color:#fff}.wk-h small{color:#fffc;font-size:13px}
 .wk-ar{margin-left:auto;display:flex;gap:6px}.wk-ar button{width:34px;height:34px;border-radius:50%;border:0;background:#ffffff30;color:#fff;font-size:20px;cursor:pointer}.wk-ar button:hover{background:#ffffff55}
@@ -207,7 +207,7 @@ a.s3{text-decoration:none;color:inherit;cursor:pointer;transition:transform .2s,
 <div class="lt-wh">🛒 Cómprala en la <b>sede del club</b> (Óbila Center) o en la <b>taquilla los días de partido</b>. No se vende por internet.</div>
 <div class="lt-bt"><a class="a" href="https://www.google.com/maps/search/?api=1&query=Calle+San+Pedro+Bautista+s/n+05005+%C3%81vila" target="_blank" rel="noopener">📍 Cómo llegar</a><a class="b" href="tel:920257171">📞 920 25 71 71</a></div>
 <small class="lg">Se recuerda la prohibición expresa de compra y venta de participaciones a menores de 18 años (art. 6.2.a Ley 13/2011). Premios sujetos a la retención legal aplicable. Juega con responsabilidad.</small></div></div>
-<div class="nxs" id="nxs"></div>
+<div class="wkb" id="wkh" style="margin-top:22px"></div><p class="wk-more"><a href="#partidos">Ver todos los partidos →</a></p>
 </section>
 <section class="pg" id="equipo"><h2>Primer equipo</h2><div id="nextm"></div>
 <div class="two"><div><h3>Clasificación</h3><div class="tw"><table id="tab"></table></div></div>
@@ -447,7 +447,7 @@ renderT();
 
 $('nextm2').innerHTML=$('nextm').innerHTML;
 const PG=['equipo','cantera','noticias','partidos','plantilla','galeria','historia','patrocinadores','aficion','contacto','aviso-legal','privacidad','cookies'];
-function route(){try{if(/^#\/?partidos/.test(location.hash))renderWk()}catch(e){}let p=(location.hash||'').replace(/^#\/?/,''),q=p;if(p==='plantilla')p=q='equipo';if(/^t-/.test(p)&&STAT[p.slice(2)]){q='teamp';renderTP(p.slice(2))}else if(!PG.includes(p)){p='home';q=p}
+function route(){requestAnimationFrame(()=>{try{renderWk()}catch(e){}});let p=(location.hash||'').replace(/^#\/?/,''),q=p;if(p==='plantilla')p=q='equipo';if(/^t-/.test(p)&&STAT[p.slice(2)]){q='teamp';renderTP(p.slice(2))}else if(!PG.includes(p)){p='home';q=p}
  document.querySelectorAll('section.pg').forEach(s=>{const on=s.id===q;s.style.display=on?'block':'none';if(on)s.classList.add('in')});
  const hm=p==='home';document.querySelector('.hero').style.display=hm?'':'none';$('stats').style.display='none';
  document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('act',a.getAttribute('href')==='#'+p));
@@ -597,13 +597,13 @@ function wkCard(m){const DOW=['Dom','Lun','Mar','Mié','Jue','Vie','Sáb'],d=m.d
  const T=(n,o)=>`<div class="tm${o?' us':''}">${bdg(n,FEB.us)}<span>${esc(n)}</span></div>`;
  return `<div class="wc"><div class="wc-t"><span>${esc(m.cat.split(' · ')[0]==='Tercera FEB'?'Primer equipo · 3ª FEB':m.cat.split(' · ')[0])}</span><span>${when}</span></div><div class="wc-m">${T(m.h,hO)}${mid}${T(m.a,aO)}</div>${foot}</div>`}
 function wkLabel(off){const[a,b]=wkRange(off),M=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];return a.getDate()+(a.getMonth()!==b.getMonth()?' '+M[a.getMonth()]:'')+' – '+b.getDate()+' '+M[b.getMonth()]}
-function renderWk(){const el=document.getElementById('wkb');if(!el||typeof STAT==='undefined')return;
+function renderWk(){if(typeof STAT==='undefined')return;
  const B=[[0,'🏀','ESTA SEMANA','Partidos de esta semana','#0f4c81','#1b7a4a'],[-1,'📊','JORNADA PASADA','Resultados de la semana anterior','#2b3a67','#3d2c8d'],[1,'📅','PRÓXIMA SEMANA','Los partidos de la semana que viene','#8a4b08','#b8741a']];
- el.innerHTML=B.map(([off,ic,tt,sub,c1,c2])=>{const it=wkItems(off);let cards=it.map(wkCard).join('');
+ const mk=([off,ic,tt,sub,c1,c2])=>{const it=wkItems(off);let cards=it.map(wkCard).join('');
   if(off===1&&!it.some(m=>/Tercera FEB/.test(m.cat)))cards+='<div class="wc pend"><b>Primer equipo</b>Tercera FEB · horario pendiente de publicar por la Federación</div>';
   if(!cards)cards='<div class="wk-e">No hay partidos programados.</div>';
-  return `<div class="wk" style="--c1:${c1};--c2:${c2}" data-off="${off}"><div class="wk-h"><span class="wk-ic">${ic}</span><div><b>${tt}</b><small>${wkLabel(off)} · ${it.length} partido${it.length===1?'':'s'}</small></div><div class="wk-ar"><button type="button" data-d="-1" aria-label="Anterior">‹</button><button type="button" data-d="1" aria-label="Siguiente">›</button></div></div><div class="wk-tr">${cards}</div><div class="wk-d"></div></div>`}).join('');
- el.querySelectorAll('.wk').forEach(wkDots)}
+  return `<div class="wk" style="--c1:${c1};--c2:${c2}" data-off="${off}"><div class="wk-h"><span class="wk-ic">${ic}</span><div><b>${tt}</b><small>${wkLabel(off)} · ${it.length} partido${it.length===1?'':'s'}</small></div><div class="wk-ar"><button type="button" data-d="-1" aria-label="Anterior">‹</button><button type="button" data-d="1" aria-label="Siguiente">›</button></div></div><div class="wk-tr">${cards}</div><div class="wk-d"></div></div>`};
+ [['wkb',B],['wkh',[B[0]]]].forEach(([id,L])=>{const el=document.getElementById(id);if(el){el.innerHTML=L.map(mk).join('');el.querySelectorAll('.wk').forEach(wkDots)}})}
 function wkStep(tr,d){const c=tr.firstElementChild;if(!c)return;const w=c.offsetWidth+12;if(d>0&&tr.scrollLeft+tr.clientWidth>=tr.scrollWidth-6)tr.scrollTo({left:0,behavior:'smooth'});else if(d<0&&tr.scrollLeft<=2)tr.scrollTo({left:tr.scrollWidth,behavior:'smooth'});else tr.scrollBy({left:d*w,behavior:'smooth'})}
 function wkDots(w){const tr=w.querySelector('.wk-tr'),n=tr.children.length,ds=w.querySelector('.wk-d');if(!ds)return;const c=tr.firstElementChild;if(!c){ds.innerHTML='';return}const per=Math.max(1,Math.round(tr.clientWidth/(c.offsetWidth+12))||1),pg=Math.max(1,Math.ceil(n/per));ds.innerHTML=pg>1?Array.from({length:pg},(_,i)=>'<i></i>').join(''):'';const i=Math.min(pg-1,Math.round(tr.scrollLeft/(c.offsetWidth+12)/per));[...ds.children].forEach((e,k)=>e.classList.toggle('on',k===i))}
 document.addEventListener('click',e=>{const b=e.target.closest('.wk-ar button');if(b){const tr=b.closest('.wk').querySelector('.wk-tr');tr._p=Date.now()+15000;wkStep(tr,+b.dataset.d)}});
