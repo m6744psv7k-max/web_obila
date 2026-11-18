@@ -402,6 +402,7 @@ feb();
 const io=('IntersectionObserver' in window)?new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting)x.target.classList.add('in')}),{threshold:.08}):null;
 document.querySelectorAll('section').forEach(s=>{s.classList.add('rv');io?io.observe(s):s.classList.add('in')});
 
+var LB_SETS={},ROSTERS={};
 const TEAMS=[
 ['senior-m-1','Senior','Senior Provincial Masculino','Lebronto-Muñochas Óbila'],
 ['senior-m-2','Senior','Senior Provincial Masculino','Grupo Leonsa-Pizzería Amalfi - Óbila'],
@@ -514,7 +515,7 @@ function calc(o){const M=(o.matches||[]).filter(m=>m&&m.h&&m.a&&m.d),us=o.us;if(
  const T={},get=n=>T[n]||(T[n]={n,pj:0,w:0,l:0,pf:0,pc:0});
  for(const m of M){get(m.h);get(m.a);if(mPlayed(m)){const a=get(m.h),b=get(m.a),x=+m.hs,y=+m.as;a.pj++;b.pj++;a.pf+=x;a.pc+=y;b.pf+=y;b.pc+=x;if(x>y){a.w++;b.l++}else{b.w++;a.l++}}}
  const L=Object.values(T).map(t=>({...t,pts:t.w*2+t.l})).sort((p,q)=>q.pts-p.pts||(q.pf-q.pc)-(p.pf-p.pc)||q.pf-p.pf),out={};
- out.tab=L.map((t,i)=>`${i+1}. ${isUs(t.n,us)?'★ ':''}${t.n} · ${t.pj} PJ · ${t.pts} pts`);
+ out.rows=L;out.tab=L.map((t,i)=>`${i+1}. ${isUs(t.n,us)?'★ ':''}${t.n} · ${t.pj} PJ · ${t.pts} pts`);
  const me=L.findIndex(t=>isUs(t.n,us));
  if(me>=0){const t=L[me];out.pos=`${me+1}º de ${L.length} · ${t.w} ${t.w===1?'victoria':'victorias'}, ${t.l} ${t.l===1?'derrota':'derrotas'}`}
  const mine=M.filter(m=>isUs(m.h,us)||isUs(m.a,us)).sort((a,b)=>mDate(a)-mDate(b)),pl=mine.filter(mPlayed),up=mine.filter(m=>!mPlayed(m));
@@ -534,9 +535,18 @@ function renderTP(id){const t=TEAMS.find(x=>x[0]===id);if(!t)return;const d=tdat
  if(n1){const past=n1.date<Date.now(),L=n1.home?[us,n1.rival]:[n1.rival,us];
   card=`<div class="mc"><div class="t">${bdg(L[0],us)}<b>${esc(L[0])}</b></div><div class="m"><small>${past?'ÚLTIMO PARTIDO PUBLICADO · PENDIENTE DE ACTUALIZAR':'PRÓXIMO PARTIDO'}</small><h3>VS</h3><div>${esc(fmM(n1))}</div>${past?'':`<div class="cdx" data-t="${n1.date.getTime()}"></div>`}</div><div class="t">${bdg(L[1],us)}<b>${esc(L[1])}</b></div></div>`}
  else card=`<div class="card"><b>Próximo partido</b><p>${esc(d.next||'Calendario pendiente de publicar')}</p></div>`;
- const rows=(d.tab||[]).map(s=>{const m=s.match(/^(\d+)\.\s(★\s)?(.+?)\s·\s(\d+)\sPJ\s·\s(\d+)\spts$/);return m?`<tr class="${m[2]?'us':''}"><td>${m[1]}</td><td>${csm(m[3])}${esc(m[3])}</td><td>${m[4]}</td><td>${m[5]}</td></tr>`:''}).join('');
- const nxt=[d.next,d.j2].filter(Boolean).map(x=>`<div class="fx"><span>${esc(x)}</span></div>`).join('');
- $('tp').innerHTML=`<a href="#cantera" class="back">← Cantera y equipos</a><h2>${esc(t[2])}</h2><p class="sub">${esc(t[3])}${d.meta?' · '+esc(d.meta):''}</p>${card}<div class="two"><div><h3>Clasificación</h3>${d.pos?`<p class="sub">${esc(d.pos)}</p>`:''}${rows?`<div class="tw"><table><tr><th>#</th><th>Equipo</th><th>PJ</th><th>Pts</th></tr>${rows}</table></div>`:'<p class="sub">Clasificación pendiente de publicar.</p>'}</div><div><h3>Último resultado</h3><div class="fx"><span>${esc(d.last||'—')}</span></div><h3 style="margin-top:20px">Próximos partidos</h3>${nxt||'<p class="sub">Calendario pendiente de publicar.</p>'}</div></div>${calHtml(d)}<small style="color:var(--mut);display:block;margin-top:14px">Fuente: FBCyL (fbcyl.es). ${d.matches?'Datos del calendario oficial de la FBCyL.':'Datos a 6 de octubre de 2026, pendientes de actualizar.'}</small>`;
+ const M=(d.matches||[]).filter(m=>m&&m.h&&m.a&&m.d),U=d.us,pl=M.filter(mPlayed),up=M.filter(m=>!mPlayed(m));
+ const rows=(d.rows||[]).map((r,i)=>`<tr class="${isUs(r.n,U)?'us':''}"><td>${i+1}</td><td>${csm(r.n)}${esc(r.n)}</td><td>${r.pj}</td><td>${r.w}</td><td>${r.l}</td><td>${r.pf}</td><td>${r.pc}</td><td>${r.pf-r.pc}</td></tr>`).join('');
+ const jL=pl.length?Math.max(...pl.map(m=>+m.j||0)):0,jN=up.length?Math.min(...up.map(m=>+m.j||999)):0,srt=(a,b)=>mDate(a)-mDate(b);
+ const fxr=(m,res)=>{const dd=mDate(m),u=isUs(m.h,U)||isUs(m.a,U);return `<div class="fx ${u?'us':''}"><span>${csm(m.h)}${esc(m.h)} – ${csm(m.a)}${esc(m.a)}</span>${res?`<b>${esc(m.hs)}-${esc(m.as)}</b>`:`<i>${pad(dd.getDate())}/${pad(dd.getMonth()+1)}${m.t?' · '+m.t:''}</i>`}</div>`};
+ const R=jL?pl.filter(m=>+m.j===jL).sort(srt):[],N=jN&&jN<999?up.filter(m=>+m.j===jN).sort(srt):[];
+ const right=(R.length||N.length)?`<h3>${jL?'Jornada '+jL+' · resultados':'Resultados'}</h3>${R.length?R.map(m=>fxr(m,1)).join(''):'<p class="sub">Aún no se han jugado partidos.</p>'}<h3 style="margin-top:20px">${jN&&jN<999?'Jornada '+jN+' · próximos partidos':'Próximos partidos'}</h3>${N.length?N.map(m=>fxr(m,0)).join(''):'<p class="sub">Calendario pendiente de publicar.</p>'}`
+  :`<h3>Último resultado</h3><div class="fx"><span>${esc(d.last||'—')}</span></div><h3 style="margin-top:20px">Próximos partidos</h3>${[d.next,d.j2].filter(Boolean).map(x=>`<div class="fx"><span>${esc(x)}</span></div>`).join('')||'<p class="sub">Calendario pendiente de publicar.</p>'}`;
+ const ph=((S.tph||[]).filter(x=>x.t===id)).map(x=>x.src);LB_SETS[id]=ph;
+ const media=ph.length?`<div class="pfg" style="margin-top:30px"><button class="mdl" data-set="${id}" type="button"><img src="${ph[0]}" alt="Fotos del equipo"><span><b>📸 Fotos del equipo</b><small>${ph.length} foto${ph.length===1?'':'s'}</small></span></button></div>`:'';
+ const R2=ROSTERS[id]||[];
+ const ros=`<div class="rhd"><h3 class="rh">Plantilla 2026/27</h3>${R2.some(p=>p.photo)?'<span class="cred">📷 Fotografías: <b>MP Studio11</b></span>':''}</div>`+(R2.length?`<div class="ros">${R2.map(p=>`<div class="rp"><span class="rn">${p.num??''}</span><img class="${p.photo?'':'cr'}" src="${p.photo||LOGO}" alt="${esc(p.name)}"><div><b>${esc(p.name)}</b>${p.url?`<a href="${esc(p.url)}" target="_blank" rel="noopener">Ficha ↗</a>`:''}</div></div>`).join('')}</div>`:'<p class="sub">Jugadores y fotos del equipo: próximamente.</p>');
+ $('tp').innerHTML=`<a href="#cantera" class="back">← Cantera y equipos</a><h2>${esc(t[2])}</h2><p class="sub">${esc(t[3])}${d.meta?' · '+esc(d.meta):''}</p>${card}<div class="two"><div><h3>Clasificación</h3>${rows?`<div class="tw"><table><tr><th>#</th><th>Equipo</th><th>PJ</th><th>PG</th><th>PP</th><th>PF</th><th>PC</th><th>DIF</th></tr>${rows}</table></div>`:'<p class="sub">Clasificación pendiente de publicar.</p>'}</div><div>${right}</div></div>${media}${ros}${calHtml(d)}<small style="color:var(--mut);display:block;margin-top:14px">Fuente: FBCyL (fbcyl.es). ${d.matches?'Datos del calendario oficial de la FBCyL.':'Datos pendientes de actualizar.'}</small>`;
  tickX()}
 var NXS=[],nxI=0,nxH=false;
 function renderNXS(){const box=$('nxs');if(!box)return;const now=Date.now()-3*3600e3,it=[];
@@ -575,9 +585,9 @@ var ROSTER=[
 {num:57,name:'FRANCISCO QUIROS QUINTANILLA',url:'https://baloncestoenvivo.feb.es/Jugador.aspx?i=1009179&c=2116984',photo:''}];
 function renderRoster(){const r=$('roster');if(!r)return;r.innerHTML=ROSTER.map(p=>`<div class="rp"><span class="rn">${p.num}</span><img class="${p.photo?'':'cr'}" src="${p.photo||LOGO}" alt="${esc(p.name)}"><div><b>${esc(p.name)}</b><a href="${esc(p.url)}" target="_blank" rel="noopener">Ficha FEB ↗</a></div></div>`).join('')}
 function renderPF(){const b=$('pfotos');if(!b)return;b.innerHTML=`<button class="mdl" data-i="0" type="button"><img src="${PFOTOS[0]}" alt="Media day"><span><b>📸 Media day</b><small>${PFOTOS.length} fotos · 📷 MP Studio11</small></span></button>`}
-(function(){const lb=document.createElement('div');lb.id='lbx';document.body.appendChild(lb);let ix=0;
- function sh(i){ix=(i+PFOTOS.length)%PFOTOS.length;lb.innerHTML='<img src="'+PFOTOS[ix]+'" alt=""><div class="nv l" data-d="-1">‹</div><div class="nv r" data-d="1">›</div><div class="ct">Media day · '+(ix+1)+' / '+PFOTOS.length+'</div>';lb.classList.add('o')}
- document.addEventListener('click',e=>{const f=e.target.closest('.mdl');if(f){sh(0);return}const n=e.target.closest('#lbx .nv');if(n){sh(ix+ +n.dataset.d);return}if(lb.classList.contains('o'))lb.classList.remove('o')});
+(function(){const lb=document.createElement('div');lb.id='lbx';document.body.appendChild(lb);let ix=0,AR=PFOTOS;
+ function sh(i){ix=(i+AR.length)%AR.length;lb.innerHTML='<img src="'+AR[ix]+'" alt=""><div class="nv l" data-d="-1">‹</div><div class="nv r" data-d="1">›</div><div class="ct">Media day · '+(ix+1)+' / '+AR.length+'</div>';lb.classList.add('o')}
+ document.addEventListener('click',e=>{const f=e.target.closest('.mdl');if(f){AR=LB_SETS[f.dataset.set]||PFOTOS;if(!AR.length)return;sh(0);return}const n=e.target.closest('#lbx .nv');if(n){sh(ix+ +n.dataset.d);return}if(lb.classList.contains('o'))lb.classList.remove('o')});
  document.addEventListener('keydown',e=>{if(!lb.classList.contains('o'))return;if(e.key==='Escape')lb.classList.remove('o');if(e.key==='ArrowRight')sh(ix+1);if(e.key==='ArrowLeft')sh(ix-1)});renderPF();renderRoster()})();
 
 /* ===== Banners de partidos de la semana ===== */
