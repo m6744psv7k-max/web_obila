@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T07:48:17Z",
+ "updated": "2026-11-18T11:32:56Z",
  "FEB": {
   "us": "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
   "t": [
@@ -6325,6 +6325,13 @@
    "body": ""
   },
   {
+   "date": "2026-11-13",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQMHQ2U25LU0hEdmVEcDJIcmZCZTRZZWFqQk8wQUFQU0p5Wklyejh2Q3Jjd19RQ1A1SmwxMThWNDV1RWRGMU83V0NidjRKNkN2VW51V2g0XzAxMHFRd2liRnlZY1JNeXRnY1F5N204Z21jUVFsaFgyaHF0ZlR5RlR0NVg2YW5FZmtkYVpNNFhURzJ3ZG1BTzBMcXpJRTJHNFNER1hGb3BVT1FIdGlZenJYVnY4dG5HaDAxWWVFQ01WUC05ZWpuYWEyUTZTUXNrRnpuUHhGcWpKN2g?oc=5",
+   "title": "El Hotel 4Postes, con ambición y ganas ante el Lisdata Bezana",
+   "body": ""
+  },
+  {
    "date": "2026-11-07",
    "src": "Diario de Ávila",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVkJfcG9HbWZvbTZqS0FvbUpXc1R1aWY1b0JXU3NOWTVkTVRxZWFYazMyRE05ZWJoRHlaYUhlM2J2eDlsRUo0T1AtTVF2a1VMdzBLZ3QxbXBWTmt1TmFfcHdYMEVYeTAtNkluVzRiTDYyNm1TUUx0TDhXN0FSeEZlc21YWUZXYUlYdkJsUmVLWWJFcG9kMmx2THF0SWYwLWxzZjdjYks4a1ZLbDM2cW55Rks3S01UZw?oc=5",
@@ -6507,5 +6514,5 @@
    "body": ""
   }
  ],
- "feb_updated": "2026-11-18T07:48:16Z"
+ "feb_updated": "2026-11-18T11:32:56Z"
 }
