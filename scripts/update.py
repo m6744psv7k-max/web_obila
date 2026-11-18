@@ -53,6 +53,15 @@ def parse_feb(html):
         raise ValueError(f'FEB: datos incompletos (equipos={len(t)}, jugados={len(played)}, próximos={len(nxt)}, jornada={rnd})')
     return {'us': US, 't': t, 'j1': played, 'j2': nxt, 'round': rnd}
 
+OBILA_RE = re.compile(r'[óo]bila|4\s?postes', re.I)
+BASKET_RE = re.compile(r'baloncesto|basket|tercera\s+feb|\bfeb\b|canasta|triple', re.I)
+OTRO_DEPORTE_RE = re.compile(r'f[úu]tbol|rfef|balompi|\bgoles?\b|laliga|la\s+liga|portero|penalti|balonmano|voleibol|rugby', re.I)
+
+def es_noticia_del_club(title):
+    """Solo noticias del Óbila o de baloncesto; descarta otros deportes (p. ej. ligas de fútbol)."""
+    if OBILA_RE.search(title): return not (OTRO_DEPORTE_RE.search(title) and not BASKET_RE.search(title))
+    return bool(BASKET_RE.search(title)) and not OTRO_DEPORTE_RE.search(title)
+
 def parse_news(xml_text, old, strict=True):
     root = ET.fromstring(xml_text)
     out, limit = [], datetime.now(timezone.utc) - timedelta(days=150)
@@ -62,13 +71,14 @@ def parse_news(xml_text, old, strict=True):
         src_el = it.find('source')
         src = (src_el.text or '').strip() if src_el is not None else ''
         if src and title.endswith(' - ' + src): title = title[:-(len(src) + 3)]
-        if strict and not re.search(r'[óo]bila|4\s?postes', title, re.I): continue
+        if strict and not OBILA_RE.search(title): continue
+        if not es_noticia_del_club(title): continue
         try: dt = parsedate_to_datetime(it.findtext('pubDate'))
         except Exception: continue
         if dt < limit: continue
         out.append({'date': dt.strftime('%Y-%m-%d'), 'src': src, 'url': link, 'title': title, 'body': ''})
     seen = {n['url'] for n in out}
-    out += [n for n in old if n['url'] not in seen]
+    out += [n for n in old if n['url'] not in seen and es_noticia_del_club(n['title'])]
     out.sort(key=lambda n: n['date'], reverse=True)
     return out[:30]
 
