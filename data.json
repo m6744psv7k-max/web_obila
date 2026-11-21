@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T10:55:18Z",
+ "updated": "2026-11-21T19:09:18Z",
  "FEB": {
   "us": "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
   "t": [
@@ -41,21 +41,21 @@
    ],
    [
     5,
+    "IRUKI TAKE",
+    8,
+    5,
+    3,
+    661,
+    611
+   ],
+   [
+    6,
     "ULACIA ZKE",
     7,
     4,
     3,
     567,
     527
-   ],
-   [
-    6,
-    "IRUKI TAKE",
-    7,
-    4,
-    3,
-    561,
-    549
    ],
    [
     7,
@@ -68,15 +68,6 @@
    ],
    [
     8,
-    "SAN PRUDENCIO",
-    7,
-    3,
-    4,
-    529,
-    530
-   ],
-   [
-    9,
     "UNIVERSIDAD DEUSTO LOIOLA INDAUTXU",
     7,
     3,
@@ -85,13 +76,22 @@
     586
    ],
    [
-    10,
+    9,
     "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
     7,
     3,
     4,
     585,
     665
+   ],
+   [
+    10,
+    "SAN PRUDENCIO",
+    8,
+    3,
+    5,
+    591,
+    630
    ],
    [
     11,
@@ -132,62 +132,14 @@
   ],
   "j1": [
    [
-    "TEKNEI BIZKAIA ZORNOTZA",
-    "MEGACALZADO ARDOI",
-    "84-61",
-    "14/11",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536705"
-   ],
-   [
-    "TABIRAKO BAQUE",
-    "DE MORRO FINO CANTBASKET04",
-    "64-75",
-    "14/11",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536703"
-   ],
-   [
-    "SAN PRUDENCIO",
-    "ULACIA ZKE",
-    "76-68",
-    "14/11",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536707"
-   ],
-   [
-    "LISDATA BEZANA",
-    "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
-    "93-99",
-    "14/11",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536709"
-   ],
-   [
-    "ELABORADOS NATURALES VALLE DE EGÜÉS",
-    "BALONCESTO LA FLECHA",
-    "87-82",
-    "14/11",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536708"
-   ],
-   [
-    "UNIVERSIDAD DEUSTO LOIOLA INDAUTXU",
-    "CONSTRUCCIONES GONZALO CRESPO PAS PIÉLAGOS",
-    "61-86",
-    "14/11",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536704"
-   ],
-   [
-    "RESTAURANTE LOS ARCOS CB SOLARES",
     "IRUKI TAKE",
-    "79-87",
-    "15/11",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536706"
+    "SAN PRUDENCIO",
+    "100-62",
+    "21/11",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536713"
    ]
   ],
   "j2": [
-   [
-    "IRUKI TAKE",
-    "SAN PRUDENCIO",
-    "21/11 · 18:00",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536713"
-   ],
    [
     "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
     "TABIRAKO BAQUE",
@@ -223,9 +175,51 @@
     "LISDATA BEZANA",
     "22/11 · 19:00",
     "https://www.feb.es/competiciones/Partido.aspx?p=2536711"
+   ],
+   [
+    "TEKNEI BIZKAIA ZORNOTZA",
+    "DE MORRO FINO CANTBASKET04",
+    "28/11 · 18:30",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536718"
+   ],
+   [
+    "SAN PRUDENCIO",
+    "MEGACALZADO ARDOI",
+    "28/11 · 19:00",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536720"
+   ],
+   [
+    "LISDATA BEZANA",
+    "ULACIA ZKE",
+    "28/11 · 19:00",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536722"
+   ],
+   [
+    "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
+    "BALONCESTO LA FLECHA",
+    "28/11 · 19:00",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536723"
+   ],
+   [
+    "TABIRAKO BAQUE",
+    "UNIVERSIDAD DEUSTO LOIOLA INDAUTXU",
+    "28/11 · 19:00",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536717"
+   ],
+   [
+    "ELABORADOS NATURALES VALLE DE EGÜÉS",
+    "IRUKI TAKE",
+    "28/11 · 20:00",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536721"
+   ],
+   [
+    "RESTAURANTE LOS ARCOS CB SOLARES",
+    "CONSTRUCCIONES GONZALO CRESPO PAS PIÉLAGOS",
+    "28/11 · 20:30",
+    "https://www.feb.es/competiciones/Partido.aspx?p=2536719"
    ]
   ],
-  "round": 8
+  "round": 9
  },
  "STAT": {
   "senior-m-1": {
@@ -6521,5 +6515,5 @@
    "body": ""
   }
  ],
- "feb_updated": "2026-11-21T10:55:16Z"
+ "feb_updated": "2026-11-21T19:09:17Z"
 }
