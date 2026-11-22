@@ -1,34 +1,34 @@
 {
- "updated": "2026-11-22T11:13:01Z",
+ "updated": "2026-11-22T19:30:52Z",
  "FEB": {
   "us": "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
   "t": [
    [
     1,
     "TEKNEI BIZKAIA ZORNOTZA",
+    8,
     7,
-    7,
-    0,
-    653,
-    489
+    1,
+    718,
+    568
    ],
    [
     2,
+    "CONSTRUCCIONES GONZALO CRESPO PAS PIÉLAGOS",
+    8,
+    7,
+    1,
+    655,
+    566
+   ],
+   [
+    3,
     "DE MORRO FINO CANTBASKET04",
     8,
     7,
     1,
     730,
     670
-   ],
-   [
-    3,
-    "CONSTRUCCIONES GONZALO CRESPO PAS PIÉLAGOS",
-    7,
-    6,
-    1,
-    576,
-    501
    ],
    [
     4,
@@ -158,15 +158,16 @@
     "72-77",
     "21/11",
     "https://www.feb.es/competiciones/Partido.aspx?p=2536714"
-   ]
-  ],
-  "j2": [
+   ],
    [
     "CONSTRUCCIONES GONZALO CRESPO PAS PIÉLAGOS",
     "TEKNEI BIZKAIA ZORNOTZA",
-    "22/11 · 18:00",
+    "79-65",
+    "22/11",
     "https://www.feb.es/competiciones/Partido.aspx?p=2536715"
-   ],
+   ]
+  ],
+  "j2": [
    [
     "ULACIA ZKE",
     "ELABORADOS NATURALES VALLE DE EGÜÉS",
@@ -6308,6 +6309,13 @@
  ],
  "news_auto": [
   {
+   "date": "2026-11-22",
+   "src": "Deportes Ávila",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZWdBa1FmeFBEc2pRWFFjb2xFd3pLbDVjQjJTRk5QUGpPZmFKSkMxX2huNjFPdm9VODVtRi1RY09NWmV1cHNHZ2FHVWdQR2VvTzZGNGFybTI4Nk9nNUZwX001bVpGVlhHOFFydlI2Q29PSGpKNDNVVHRWTm5SZHl2ZzMtSzd5TmVDXzdXYVB4WFJRWnlXbk9DRHd2bl95bnk1RHV5aUxCMllBT19Y?oc=5",
+   "title": "El Óbila cae ante el Tabirako Baqué (74-80) tras ir por delante a 3 minutos del final",
+   "body": ""
+  },
+  {
    "date": "2026-11-20",
    "src": "Deportes Ávila",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYWI2S1hmZTBiRWxXd2R1dE9lRUFVWHEyMUhBWU16clEzMG8yN2Fld2VnU01jNHo2bzA1UnR4RVMteXR2aXU0YVR6aTlQaEN2N3ZZWjI2MWxucGJlMC05VWgyRjZjVW1MOW53ZW02dTh1ck5XMTJJbjhSb2l5SUdLS3lhcS1yVzlwSHd1RWxta1c2Ni1CdkJqTm5NYkExSzRSS0pNVGZpNGh6X2V6WGJDYUdEVnRnZw?oc=5",
@@ -6509,14 +6517,7 @@
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTnhLc0U3YVVMbUJQb0Zqc21uZWVjOVR5TGNPMnB6TG5PZlRROVIxR2V1a3dyQkM5RzJrVzROMV95aGhQemVWMl9iZDcyLUp5UXd0V1FtcmdMMzVmb1N0ZmtPckw3Qk5HR3AyX2ZEd3VMbkxVOEN6UWJQOXcxN2doTktfeC00bXQwMzlmWUZiMFlSc3lPMzh4YmZlWDRFMGpmcFQ0WDZJRW5SakFRQjV5TXFUcXRNanpL?oc=5",
    "title": "El Óbila estrena era: debut de Alberto Jiménez y apuesta canterana en la Copa Castilla y León",
    "body": ""
-  },
-  {
-   "date": "2026-09-09",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOHc0XzZRcWRfSElYbzd1Y2Y2N3M1cEdySW5sT1BXMnJtQmhtTlh6NGVNTnEyN0FyTGk4R2U1LTFyYUxseFA5X2FyYVFwbGJHODJBWG9wUkpUR2xoNmFXM2VsUWpEdHlzRXlKeDROc0JQcExiWWFzN3RwTE1mZlo5aEZzUkFjVEFfeTBBT2xqYlhGZTFBY09aaVg5REYxZmhDNTBNX0RjNnJwOUxuWnhaNk5n?oc=5",
-   "title": "Primeras citas para el Óbila CB",
-   "body": ""
   }
  ],
- "feb_updated": "2026-11-22T11:13:00Z"
+ "feb_updated": "2026-11-22T19:30:52Z"
 }
