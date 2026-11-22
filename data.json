@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T19:09:18Z",
+ "updated": "2026-11-22T01:13:46Z",
  "FEB": {
   "us": "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
   "t": [
@@ -14,6 +14,15 @@
    ],
    [
     2,
+    "DE MORRO FINO CANTBASKET04",
+    8,
+    7,
+    1,
+    730,
+    670
+   ],
+   [
+    3,
     "CONSTRUCCIONES GONZALO CRESPO PAS PIÉLAGOS",
     7,
     6,
@@ -22,22 +31,13 @@
     501
    ],
    [
-    3,
-    "DE MORRO FINO CANTBASKET04",
-    7,
-    6,
-    1,
-    638,
-    583
-   ],
-   [
     4,
     "RESTAURANTE LOS ARCOS CB SOLARES",
-    7,
-    5,
+    8,
+    6,
     2,
-    581,
-    529
+    658,
+    601
    ],
    [
     5,
@@ -68,30 +68,30 @@
    ],
    [
     8,
-    "UNIVERSIDAD DEUSTO LOIOLA INDAUTXU",
-    7,
-    3,
-    4,
-    537,
-    586
-   ],
-   [
-    9,
-    "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
-    7,
-    3,
-    4,
-    585,
-    665
-   ],
-   [
-    10,
     "SAN PRUDENCIO",
     8,
     3,
     5,
     591,
     630
+   ],
+   [
+    9,
+    "UNIVERSIDAD DEUSTO LOIOLA INDAUTXU",
+    8,
+    3,
+    5,
+    624,
+    678
+   ],
+   [
+    10,
+    "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
+    8,
+    3,
+    5,
+    659,
+    745
    ],
    [
     11,
@@ -105,11 +105,11 @@
    [
     12,
     "TABIRAKO BAQUE",
-    7,
-    1,
+    8,
+    2,
     6,
-    500,
-    527
+    580,
+    601
    ],
    [
     13,
@@ -123,11 +123,11 @@
    [
     14,
     "MEGACALZADO ARDOI",
-    7,
+    8,
     0,
-    7,
-    462,
-    563
+    8,
+    534,
+    640
    ]
   ],
   "j1": [
@@ -137,27 +137,30 @@
     "100-62",
     "21/11",
     "https://www.feb.es/competiciones/Partido.aspx?p=2536713"
-   ]
-  ],
-  "j2": [
+   ],
    [
     "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
     "TABIRAKO BAQUE",
-    "21/11 · 19:00",
+    "74-80",
+    "21/11",
     "https://www.feb.es/competiciones/Partido.aspx?p=2536710"
    ],
    [
     "DE MORRO FINO CANTBASKET04",
     "UNIVERSIDAD DEUSTO LOIOLA INDAUTXU",
-    "21/11 · 19:00",
+    "92-87",
+    "21/11",
     "https://www.feb.es/competiciones/Partido.aspx?p=2536716"
    ],
    [
     "MEGACALZADO ARDOI",
     "RESTAURANTE LOS ARCOS CB SOLARES",
-    "21/11 · 19:45",
+    "72-77",
+    "21/11",
     "https://www.feb.es/competiciones/Partido.aspx?p=2536714"
-   ],
+   ]
+  ],
+  "j2": [
    [
     "CONSTRUCCIONES GONZALO CRESPO PAS PIÉLAGOS",
     "TEKNEI BIZKAIA ZORNOTZA",
@@ -6515,5 +6518,5 @@
    "body": ""
   }
  ],
- "feb_updated": "2026-11-21T19:09:17Z"
+ "feb_updated": "2026-11-22T01:13:45Z"
 }
