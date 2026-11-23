@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T19:30:52Z",
+ "updated": "2026-11-23T01:38:30Z",
  "FEB": {
   "us": "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
   "t": [
@@ -50,21 +50,21 @@
    ],
    [
     6,
-    "ULACIA ZKE",
-    7,
-    4,
+    "ELABORADOS NATURALES VALLE DE EGÜÉS",
+    8,
+    5,
     3,
-    567,
-    527
+    685,
+    687
    ],
    [
     7,
-    "ELABORADOS NATURALES VALLE DE EGÜÉS",
-    7,
+    "ULACIA ZKE",
+    8,
     4,
-    3,
-    577,
-    585
+    4,
+    669,
+    635
    ],
    [
     8,
@@ -95,15 +95,6 @@
    ],
    [
     11,
-    "LISDATA BEZANA",
-    7,
-    2,
-    5,
-    571,
-    606
-   ],
-   [
-    12,
     "TABIRAKO BAQUE",
     8,
     2,
@@ -112,13 +103,22 @@
     601
    ],
    [
+    12,
+    "LISDATA BEZANA",
+    8,
+    2,
+    6,
+    648,
+    698
+   ],
+   [
     13,
     "BALONCESTO LA FLECHA",
-    7,
-    1,
+    8,
+    2,
     6,
-    547,
-    644
+    639,
+    721
    ],
    [
     14,
@@ -165,21 +165,23 @@
     "79-65",
     "22/11",
     "https://www.feb.es/competiciones/Partido.aspx?p=2536715"
-   ]
-  ],
-  "j2": [
+   ],
    [
     "ULACIA ZKE",
     "ELABORADOS NATURALES VALLE DE EGÜÉS",
-    "22/11 · 18:30",
+    "102-108",
+    "22/11",
     "https://www.feb.es/competiciones/Partido.aspx?p=2536712"
    ],
    [
     "BALONCESTO LA FLECHA",
     "LISDATA BEZANA",
-    "22/11 · 19:00",
+    "92-77",
+    "22/11",
     "https://www.feb.es/competiciones/Partido.aspx?p=2536711"
-   ],
+   ]
+  ],
+  "j2": [
    [
     "TEKNEI BIZKAIA ZORNOTZA",
     "DE MORRO FINO CANTBASKET04",
@@ -6519,5 +6521,5 @@
    "body": ""
   }
  ],
- "feb_updated": "2026-11-22T19:30:52Z"
+ "feb_updated": "2026-11-23T01:38:29Z"
 }
