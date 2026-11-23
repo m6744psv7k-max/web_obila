@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T17:12:19Z",
+ "updated": "2026-11-23T17:22:30Z",
  "FEB": {
   "us": "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
   "t": [
@@ -6444,6 +6444,13 @@
    "body": ""
   },
   {
+   "date": "2026-09-01",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ3pQN0VZQnBILTN5T09heXNjN2I0X2ZSaGRnOVcwUGxnMEpvMWpUVzBEU25WellwTDB5NzAxNU8xRTFNQ3FHQVo4MWJlbWFjd0ZDZ19TVWpoRUJYM0ZtN242ZTlLWkRIbEdyQzlGUkxZcnRBbGE5ZDcwVU02S1ByUkVmYXhvMmh6RWthREtoUTZJM2FHZmU2ZEt5elYySHlnR3R2bEtmWDNsMWtxWXNCV2s3b1hEbkVpQ1E?oc=5",
+   "title": "El Óbila lanza su campaña de abonados",
+   "body": ""
+  },
+  {
    "date": "2026-08-31",
    "src": "Tribuna de Ávila.",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZWNRNjZEMzZzbkkzeVJ3bjZVOEs4YlBLRzUyaGJNUEx2cVNjaVd5NzBzUDAzNlV0Qm5HTnZtM0tUV2JlZWZqZHdTRXhLN0VERnllV3M2Q2JOd0tJSGpQT21CbTNmWWIxMkp2YnhKd0JNT29yVUFiM3pQckVMYlFNMnNTWExlSFVHRHhzX3Eyc2xZcEhnc3pRNGE4VWxmQU1fTEpIeWZn?oc=5",
@@ -6507,5 +6514,5 @@
    "body": ""
   }
  ],
- "feb_updated": "2026-11-23T17:12:18Z"
+ "feb_updated": "2026-11-23T17:22:29Z"
 }
