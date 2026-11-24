@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T13:35:21Z",
+ "updated": "2026-11-24T14:19:25Z",
  "FEB": {
   "us": "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
   "t": [
@@ -6360,6 +6360,13 @@
    "body": ""
   },
   {
+   "date": "2026-11-08",
+   "src": "Deportes Ávila",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE94T1VHSkNGLVgyZEJzeXFOVnVORm1CdlhEMkZCa19ZdzVsVS1iMzlIUENxaXRLM3JCcGFYUTJzXzB0Rl9OZlh4RzUyQnctcWtwMWtKUF9BVkFkZjdxcGQyQUdkSEI4UQ?oc=5",
+   "title": "Victoria de carácter del Óbila",
+   "body": ""
+  },
+  {
    "date": "2026-11-07",
    "src": "Diario de Ávila",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVkJfcG9HbWZvbTZqS0FvbUpXc1R1aWY1b0JXU3NOWTVkTVRxZWFYazMyRE05ZWJoRHlaYUhlM2J2eDlsRUo0T1AtTVF2a1VMdzBLZ3QxbXBWTmt1TmFfcHdYMEVYeTAtNkluVzRiTDYyNm1TUUx0TDhXN0FSeEZlc21YWUZXYUlYdkJsUmVLWWJFcG9kMmx2THF0SWYwLWxzZjdjYks4a1ZLbDM2cW55Rks3S01UZw?oc=5",
@@ -6423,6 +6430,13 @@
    "body": ""
   },
   {
+   "date": "2026-10-19",
+   "src": "Deportes Ávila",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbWhwVHdkTFBpd3VvTjJJV0xqRzZ0QW90UmJ4ZXdzMGtxNDc3alJVc0M1aFF6VFN5X0xIV3lRX2dPd3lSYTQtTnBjNVU2elhIVFNZYjBHaXU0ZndkcmtiaWZQYVU1dVBhcWcxQTAzTU1SWHp0R3FjMHZfS1E5Sm0yWVA4RWdHbDJHTTlUYUlKLXVORU1PLXNFZlRXWHM?oc=5",
+   "title": "El líder arrolla al Óbila: noche negra para los verderones en Amorebieta",
+   "body": ""
+  },
+  {
    "date": "2026-10-11",
    "src": "Deportes Ávila",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYndYLTY4NHVnLTRhRl8zN01neEtBS2E1V1RSSzZIazZGVHZ5ZUU2OVdzNUNNOVdWdk83QnI1bnVfLXhrWEhmZzdUdXIwaXM3LWZkbkxrSGhUZWxYcHBOaXhNYkY2VjV4N3loaHcwOEZYNEVGWURIR2EyWHpmeGx4OFpJWjZVOGttNFZfdTdJS1BlS0ppT0E3Yw?oc=5",
@@ -6479,6 +6493,13 @@
    "body": ""
   },
   {
+   "date": "2026-09-16",
+   "src": "Diario de Ávila",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOU0ZlQ2wwMlRxbkNtZ2FuNUFKVm13a0QyU00wX2VBWDdXWWd3WHRXbVhTdHNvMFBsMWRzaTlWbzNQNmdnSjJtckI0a0NkREpJenExVWpZeVNPRFQ2alpudV9pQXJyek9jcW9UV0djOWNGN2dGZ2JoeTgzZFpnU2xQbnRQN3R6NFo2bFVjc3hwb1doYnY1ajQtRUswYTNMb1VTeV9lV2Y5ejZZYmlHSlV5eWhUU0NvNVZZU3AwTjZDRWxxWlU?oc=5",
+   "title": "Primera ocasión para ver al Óbila en directo",
+   "body": ""
+  },
+  {
    "date": "2026-09-14",
    "src": "Deportes Ávila",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUlBlTTA0TkZ3QWg0MTllMUM2TC1kZXMxM0pubnN0bDBCLVJwY1EzOHZlRkxLbmpHNUxGSFZnVklLMzVPX25YVnhTQlV6YnJmazBWWC1oUTR2NXQ2QjFzWkZMVE9Qc2o3MEFDZUF3SmlOMTRVdndwZXQ0aXQyYXZvaFIzTkRVa1dpRl9URk1kTVlNS3FqUjdCdUlGSnFvUy1hOU8zLUtqcDhsb09aYkJQQnM4RQ?oc=5",
@@ -6491,35 +6512,7 @@
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWE1XV0hxemxQUUxSbmhlendkUEZkNTFjRU9acWNmLVNHUmJfOU81V1J0VmRnMnVrdzR6T19Tc0o5Q1VEbG4wSVB5bVhXSXlJR2RuZThpVXE4ZVRLNFJaeFVlTFI4amxQVHNtdkNORXUwblRlSkxPM1NlZV9CMjdKemk2M0I2NzM1WHpvS3ZSejZHVTlrdUpUZy0tRFphc3BxcFVLZjFFdXdNY3duV1QzUWVNRFNwckQ5SG1YWHFKenpWanlpTVE0c1paV3dJdw?oc=5",
    "title": "Hotel 4Postes Ávila Auténtica se estrena con derrota (100-70)",
    "body": ""
-  },
-  {
-   "date": "2026-09-12",
-   "src": "Deportes Ávila",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTnhLc0U3YVVMbUJQb0Zqc21uZWVjOVR5TGNPMnB6TG5PZlRROVIxR2V1a3dyQkM5RzJrVzROMV95aGhQemVWMl9iZDcyLUp5UXd0V1FtcmdMMzVmb1N0ZmtPckw3Qk5HR3AyX2ZEd3VMbkxVOEN6UWJQOXcxN2doTktfeC00bXQwMzlmWUZiMFlSc3lPMzh4YmZlWDRFMGpmcFQ0WDZJRW5SakFRQjV5TXFUcXRNanpL?oc=5",
-   "title": "El Óbila estrena era: debut de Alberto Jiménez y apuesta canterana en la Copa Castilla y León",
-   "body": ""
-  },
-  {
-   "date": "2026-09-09",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOHc0XzZRcWRfSElYbzd1Y2Y2N3M1cEdySW5sT1BXMnJtQmhtTlh6NGVNTnEyN0FyTGk4R2U1LTFyYUxseFA5X2FyYVFwbGJHODJBWG9wUkpUR2xoNmFXM2VsUWpEdHlzRXlKeDROc0JQcExiWWFzN3RwTE1mZlo5aEZzUkFjVEFfeTBBT2xqYlhGZTFBY09aaVg5REYxZmhDNTBNX0RjNnJwOUxuWnhaNk5n?oc=5",
-   "title": "Primeras citas para el Óbila CB",
-   "body": ""
-  },
-  {
-   "date": "2026-09-08",
-   "src": "Deportes Ávila",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUVF0emNaTi1pY3JGMlh4N3hXekFERGVISC1fMnRqNE4zM05ETDBWZVlJUDVrQjA5NmM5aFRuUmVtOUJONzRocWg0YnJScXBiZmxXY1VkWEVJZFFfVXpVODVhM211MF8yTXViQlRIZTNIZEZ1NHlwSUw5Z0Uta0w5OXJtZGFyYnYwdzVzSEhRRG5PMjRkQkpOV2RENHFIM1BkeWYtdG1pRzBBUHU5ckZr?oc=5",
-   "title": "El Óbila desafía a los equipos de Salamanca en la Copa Castilla y León de Tercera FEB",
-   "body": ""
-  },
-  {
-   "date": "2026-09-03",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSjFvUURTekNoT2NRYV9XYnVwSVdkQVlzTTlrUUpLcDNIMGtSQlRKaGo3cnh1YmxGWUxveFBoVkt0NXpGNnJhcUM0ZGxXUGVEeWI3OGc2SEVfQWM1dXNldnBQSFNZR0J5OWkzLXBsVzlOOE5aR0JkenB2X0NDanoxanZ4aE55NTJkckpXck9OZWpicnJoQ2p3Y0JzX29qbzR0VWJXRE56OWhkQ3RLNnNDTA?oc=5",
-   "title": "Un nuevo Óbila para \"divertirse\"",
-   "body": ""
   }
  ],
- "feb_updated": "2026-11-24T13:35:20Z"
+ "feb_updated": "2026-11-24T14:19:24Z"
 }
