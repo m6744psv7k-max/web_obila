@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:30:40Z",
+ "updated": "2026-11-26T10:10:20Z",
  "FEB": {
   "us": "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
   "t": [
@@ -186,43 +186,43 @@
     "TEKNEI BIZKAIA ZORNOTZA",
     "DE MORRO FINO CANTBASKET04",
     "28/11 · 18:30",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536718"
+    ""
    ],
    [
     "SAN PRUDENCIO",
     "MEGACALZADO ARDOI",
     "28/11 · 19:00",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536720"
+    ""
    ],
    [
     "LISDATA BEZANA",
     "ULACIA ZKE",
     "28/11 · 19:00",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536722"
+    ""
    ],
    [
     "HOTEL 4POSTES - ÁVILA AUTÉNTICA - EL BULEVAR",
     "BALONCESTO LA FLECHA",
     "28/11 · 19:00",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536723"
+    ""
    ],
    [
     "TABIRAKO BAQUE",
     "UNIVERSIDAD DEUSTO LOIOLA INDAUTXU",
     "28/11 · 19:00",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536717"
+    ""
    ],
    [
     "ELABORADOS NATURALES VALLE DE EGÜÉS",
     "IRUKI TAKE",
     "28/11 · 20:00",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536721"
+    ""
    ],
    [
     "RESTAURANTE LOS ARCOS CB SOLARES",
     "CONSTRUCCIONES GONZALO CRESPO PAS PIÉLAGOS",
     "28/11 · 20:30",
-    "https://www.feb.es/competiciones/Partido.aspx?p=2536719"
+    ""
    ]
   ],
   "round": 9
@@ -420,6 +420,66 @@
      "a": "Lourdes B",
      "hs": 52,
      "as": 26
+    },
+    {
+     "j": 1,
+     "d": "2026-11-28",
+     "t": "16:00",
+     "h": "CB Fisiovitalia 1906",
+     "a": "Lebronto-Muñochas Óbila",
+     "hs": "",
+     "as": "",
+     "c": "Copa"
+    },
+    {
+     "j": 1,
+     "d": "2026-11-29",
+     "t": "12:00",
+     "h": "CB Villa de Laguna",
+     "a": "Agrocesa C.B. Aldeamayor",
+     "hs": "",
+     "as": "",
+     "c": "Copa"
+    },
+    {
+     "j": 1,
+     "d": "2026-11-29",
+     "t": "16:20",
+     "h": "Jesuitas San Jose",
+     "a": "Lourdes B",
+     "hs": "",
+     "as": "",
+     "c": "Copa"
+    },
+    {
+     "j": 2,
+     "d": "2026-12-13",
+     "t": "10:00",
+     "h": "U.D Santovenia",
+     "a": "Jesuitas San Jose",
+     "hs": "",
+     "as": "",
+     "c": "Copa"
+    },
+    {
+     "j": 2,
+     "d": "2026-12-13",
+     "t": "16:00",
+     "h": "Agrocesa C.B. Aldeamayor",
+     "a": "CB Fisiovitalia 1906",
+     "hs": "",
+     "as": "",
+     "c": "Copa"
+    },
+    {
+     "j": 2,
+     "d": "2026-12-13",
+     "t": "16:30",
+     "h": "Lourdes B",
+     "a": "CB Villa de Laguna",
+     "hs": "",
+     "as": "",
+     "c": "Copa"
     }
    ]
   },
@@ -6257,6 +6317,11 @@
      "as": ""
     }
    ]
+  },
+  "mini-a": {
+   "meta": "Domingos 10:30 · C.U.M. Carlos Sastre, Ávila",
+   "us": "Óbila Mini Mixto Azul",
+   "matches": []
   }
  },
  "news_manual": [
@@ -6309,217 +6374,6 @@
    "manual": true
   }
  ],
- "news_auto": [
-  {
-   "date": "2026-11-25",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNU3VvaW8yTjlnYWYtQWNraGxWU2xsaXNWZkx2VERPOE1kQllaZFNsdllIem10dUdBTTMyankxcm1FX0NEVkcxTFpvazRrbnZlaGVzMHlvOGxsT0o4V0MyVEdmaWxwc0NZX0kza01FbUxNLVloT2piLXRkYzdvUThGc2U4cE5zOE9UNWtXVXNKT0xSNk85dS1iUU03OXFKN0xSSU9JaksyWXYwVlJmeHM5YTRSLWRXQQ?oc=5",
-   "title": "El Hotel 4Postes sufre un bajonazo",
-   "body": ""
-  },
-  {
-   "date": "2026-11-22",
-   "src": "Deportes Ávila",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZWdBa1FmeFBEc2pRWFFjb2xFd3pLbDVjQjJTRk5QUGpPZmFKSkMxX2huNjFPdm9VODVtRi1RY09NWmV1cHNHZ2FHVWdQR2VvTzZGNGFybTI4Nk9nNUZwX001bVpGVlhHOFFydlI2Q29PSGpKNDNVVHRWTm5SZHl2ZzMtSzd5TmVDXzdXYVB4WFJRWnlXbk9DRHd2bl95bnk1RHV5aUxCMllBT19Y?oc=5",
-   "title": "El Óbila cae ante el Tabirako Baqué (74-80) tras ir por delante a 3 minutos del final",
-   "body": ""
-  },
-  {
-   "date": "2026-11-20",
-   "src": "Deportes Ávila",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYWI2S1hmZTBiRWxXd2R1dE9lRUFVWHEyMUhBWU16clEzMG8yN2Fld2VnU01jNHo2bzA1UnR4RVMteXR2aXU0YVR6aTlQaEN2N3ZZWjI2MWxucGJlMC05VWgyRjZjVW1MOW53ZW02dTh1ck5XMTJJbjhSb2l5SUdLS3lhcS1yVzlwSHd1RWxta1c2Ni1CdkJqTm5NYkExSzRSS0pNVGZpNGh6X2V6WGJDYUdEVnRnZw?oc=5",
-   "title": "El Óbila persigue su tercera victoria seguida ante un Tabirako Baqué tocado pero peligroso",
-   "body": ""
-  },
-  {
-   "date": "2026-11-16",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONEEyRmhFQkR1T0lseVNiMUxRN0d5bWtBQ3hleDItZ18wWk5lMUFPX0ZVRFN1a2lFT2RGeE9kYXpYV1AwX0RKNXQ5RkNtLW1SRzJHaWhFc2dvRnM1SVNYS3NvbWpSbkdES2tIUkVOajBvV1JNZ1lCdXJITFF4VERaNEN2aHFVN2NJQ1pmeGk4MnJBQjZzdjJTX2ZCN2VqTk5sd29qUVEwVlBzemx3c3dBTXc1WnFsc1U?oc=5",
-   "title": "El Hotel 4Postes 'aprende' cómo ganar",
-   "body": ""
-  },
-  {
-   "date": "2026-11-15",
-   "src": "Deportes Ávila",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd2wzRUNIVEtkVHlIUFFFbktWeDd6cHJQYm1Rbm1YQ2xpa0t3TFR4aUFGQ1Z5MGZrWXg1d2l4SV9jOFhfRzJ5OWhSQW5PU1k4SDZFV1pGaFpKQ2JGUVFfUUI5bzJFcDFiMy0wVlY2RTRTTVk3Y3FsS3Q4TWhqNGdoLUJZUWl1TU54aXBxOXJjNXF3azZFb2M0dnVHQUp4VHdWcXpTdHhMbnlia2IxSndLY21ySTdmU0U1RDNr?oc=5",
-   "title": "El Óbila voltea en el último cuarto y se lleva en Bezana su primera victoria a domicilio (93-99)",
-   "body": ""
-  },
-  {
-   "date": "2026-11-14",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcURuMnJNSzBjM3ZoNUJobTBKdlRlaHJLcGJDZk94bmlnZVZoQ3gwajd4WE9lclg1VGVzMG52dFBnVDNWQXJ4UGIzZHVLM0hzMmpXSG9ZSENLYi02Z1FUSXkyeDhPb3Bzc0ZGaEljNnZRUkMyeVlhc25XbWJBWWlSekxMVWktR3BaZXJSWGZSU1J0MzZINExhTGlORWltYWNLR0Rod3ZveS1iSVNGdWx3Zk04MGVWWk5FMUhN?oc=5",
-   "title": "El Hotel 4Postes, también fuera de casa",
-   "body": ""
-  },
-  {
-   "date": "2026-11-13",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQMHQ2U25LU0hEdmVEcDJIcmZCZTRZZWFqQk8wQUFQU0p5Wklyejh2Q3Jjd19RQ1A1SmwxMThWNDV1RWRGMU83V0NidjRKNkN2VW51V2g0XzAxMHFRd2liRnlZY1JNeXRnY1F5N204Z21jUVFsaFgyaHF0ZlR5RlR0NVg2YW5FZmtkYVpNNFhURzJ3ZG1BTzBMcXpJRTJHNFNER1hGb3BVT1FIdGlZenJYVnY4dG5HaDAxWWVFQ01WUC05ZWpuYWEyUTZTUXNrRnpuUHhGcWpKN2g?oc=5",
-   "title": "El Hotel 4Postes, con ambición y ganas ante el Lisdata Bezana",
-   "body": ""
-  },
-  {
-   "date": "2026-11-13",
-   "src": "Deportes Ávila",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSThBSElncjJNT3dVZDRmcjZIOW1mTzJHd25rbm5rTWxSWENkTTlkNkZLVVhoclJxRDdBaTZiZ0hnRFRBUkw0TlhIVjA0STlHRDNrdXk3bHBEaU9RczNSeGdTVXNXeDRSQ2VpbElsQUNJd21LRGFFY2xVblNtdjlSdlBZaUJzRkI5azBnN256SEpETzRmRjcxWHJFNzV3b2lWRk5TMHJBc1gtZVFycVVsVmRHUFdDWlM5U1RuQg?oc=5",
-   "title": "El Óbila, a romper la maldición y lograr su primera victoria a domicilio en la cancha del Bezana",
-   "body": ""
-  },
-  {
-   "date": "2026-11-08",
-   "src": "Deportes Ávila",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE94T1VHSkNGLVgyZEJzeXFOVnVORm1CdlhEMkZCa19ZdzVsVS1iMzlIUENxaXRLM3JCcGFYUTJzXzB0Rl9OZlh4RzUyQnctcWtwMWtKUF9BVkFkZjdxcGQyQUdkSEI4UQ?oc=5",
-   "title": "Victoria de carácter del Óbila",
-   "body": ""
-  },
-  {
-   "date": "2026-11-07",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVkJfcG9HbWZvbTZqS0FvbUpXc1R1aWY1b0JXU3NOWTVkTVRxZWFYazMyRE05ZWJoRHlaYUhlM2J2eDlsRUo0T1AtTVF2a1VMdzBLZ3QxbXBWTmt1TmFfcHdYMEVYeTAtNkluVzRiTDYyNm1TUUx0TDhXN0FSeEZlc21YWUZXYUlYdkJsUmVLWWJFcG9kMmx2THF0SWYwLWxzZjdjYks4a1ZLbDM2cW55Rks3S01UZw?oc=5",
-   "title": "ElHotel 4postes 'aprende' a competir",
-   "body": ""
-  },
-  {
-   "date": "2026-11-06",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPU1dqNkdWdGhhZVVKbEs0VU1qN051X01ZeklHNkV4eFlVNU14MGRMV1Nxc2VSMHl6dTZvLV83cGRqaFBSaUFoQ1dycW9pV2diNGhhZzFFNHVnQUg3dFVQWGo3a045MDJvRFBSaFpyNGRlb1JXVTcwNlpLcklneGNjekdRc2JDYmlJQUxmS1pEMjM0enlPdlpZY0Jwdy1BUnhDMjJPeDRTM3NRSFQ4blVhRWVYU2ZrVEJqVm5XUEt5QVlfRWUtUG54QktoT3JTaDQ?oc=5",
-   "title": "El Hotel 4Postes vuelve al CUM con cuentas 'pendientes'",
-   "body": ""
-  },
-  {
-   "date": "2026-11-06",
-   "src": "Deportes Ávila",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUHdsNVNpVlk3cDVLSWIwZmJMejVvUlpMbkw4cXZtdDNXRzdyRWUxak1PaUQxdGtWcDBNNEFhaTNwcmNFTERwTldaTW9FQVhSb0Mxc2w5MmdfdllBcUx1Q29GNU5FYVItZmkxcUl0ejBYM01SbFdKZzI2TlNrTlpNcFhhY0tyc09zQUl3bWJEc18wNWZwb0VjY3ZQYUJZd0lXNnlSWVdtTUZwX1l0YVRsd0wyS3Q4Zw?oc=5",
-   "title": "El Óbila regresa al Carlos Sastre con hambre de revancha tras rozar la victoria en Vitoria",
-   "body": ""
-  },
-  {
-   "date": "2026-11-04",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbURnbzhEbm05NV9ZaTJqckc3SldkcFk4dENLb05rZUNRYjZtTWZyYnEyVUQtVjJkeTIyWE41MmcwNElkV0ZUUkRrNVRIbG8tbnhMdldTU3FoNi0wN1hTQk5YTkxGMmcwbVBQb2NYd0VGT2oyc2Z6VGlXR0gxQjFuZm9LTDI2OEZJNWwyRFlXTDh6d3BSQ3dPaW1JX1JSdnkxd295TlNXM0hudU4wZGxn?oc=5",
-   "title": "El Hotel 4Postes no reacciona",
-   "body": ""
-  },
-  {
-   "date": "2026-10-31",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQS1Y3WTFfbUNXM2ZKOHM4RlFVZmVvazl5S1loUGd6NWdXcS1JY0tRcVc5SlkyMEQwQ2xrUVIxZmNnU2FYTURYcGFfVWVCMC1Pa3JaZHI3UVllT25JRjBmWS14TS1JVDJDSktUb3d4TnJPU184VEJJWWxfNmNRRHpUX3dNcXotbEhKamx1TEFHVlhuVks1YXcxY1NOOU1RM1dnSUc3OXhhTmlvNTBJU3NpUzFrdGN2ZnZtekVYdDN2Z0RTeVhxWDJqZDVJai10UQ?oc=5",
-   "title": "El Hotel 4Postes se queda cerca en un ajustado final",
-   "body": ""
-  },
-  {
-   "date": "2026-10-30",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMXZwUFRjUFk1ZDFPYnZIT19Sd3ZJeUF2d1dieEkzZnBzZ0UzSXFGVkFreXdNMy1HV1g3YUNxMmVjQmJkTmllNXc1WWE1cERURnUzRU12cGtYVXFKUEIweVFnRV9QUERIZjJMOUdvY0VKTTZNRGhZdVBIWmlPenh2TEItS3RPaXhsS3NyV01ZNl91V1F2NkFjZkFhSzZnbG9sZF9lcU5jZDQybjdHSmlCeFlfWUczX091WG9J?oc=5",
-   "title": "Hotel 4Postes, a recuperar sensaciones y volver a ganar",
-   "body": ""
-  },
-  {
-   "date": "2026-10-26",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNFJhRXo0VGRkdUpZbXo3eEdxS0NMOWd4V0tib1hhY1BzeVpHRkgzZWs4UkQ0b19XQkdyZ2pQMXFkWWluNTlGWnRCZEJWd2pGYjFfZ1lVQWNia0F6T29LZm5rYkVDOGZaOVJvZ1FFa1plREliNEFHSXQtQmpualp0eWF4Y2RrMGpGUjJsUkR1Ql95TF9LdDZxSGRzSVEzdC1OdV9LV0U0YVcyTERMenJKY2w4OEJ0Rl91dTRRSTRXemMwNEJwTkFnUWZ3?oc=5",
-   "title": "Toque de atención para el 4Postes Ávila Auténtica",
-   "body": ""
-  },
-  {
-   "date": "2026-10-26",
-   "src": "Deportes Ávila",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRTFEYzVJYXhJX3g0dVpMN0d3SmNjTnJqSWdlem9Sb0Z6NEdWZ2szbGZ5RXdkZjdjV3NPTHNxRGZsb3J0bHNrY3I5RTVjeWtXRW5ZNkkzV3JTTTc0MlhlNnFRVUwwTmEyLUNkRkJBLTBoVDhYSVVWa3dDZ001M2VDWGYzd2NFeTIzV2haX0NWcVAwNkxpVm1DMElnUHhCQ1d5NDhodWdhQWNYQQ?oc=5",
-   "title": "Un vendaval cántabro sacude el Carlos Sastre y hunde al Óbila en zona de descenso",
-   "body": ""
-  },
-  {
-   "date": "2026-10-24",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMFA0MDdnMmt0LXgwRGNvSmZ2NWpSVjZDVmlWTTVCaEk2ZElDbF9Neng5V3JsU2xGdnFTY3lNVmZXcGtkenhWa0xoc296VndrQnFtcFFHQXBxc01BOHZKbjBDQlBpdjNIYVZZOVZCUjBUOHhxcnNtdkQtRndrVjYxRE4zaXYydnNNb01XTVEtWEIxUjFmclJiZ1ZyZXJwaWlWc1F4UFJ0MGZVUnhNcDJiMTBJSWdYYlJYTHprT1Jkaw?oc=5",
-   "title": "Al Hotel 4Postes le falto un 'poco' de todo",
-   "body": ""
-  },
-  {
-   "date": "2026-10-24",
-   "src": "Deportes Ávila",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcnJUTldqT3haN1hrb3hRcE02bjhYdmN0c21YR053dC1kckYxX3NrOGowQkZ0OTV3ODBGMkhkWEV2YVFtYnA1MmQzcXI5dUJLck81OEJpRU5YOXM4VmtLMV9XTXhwUi0xQTB3Y0loREhiNG1DcW8yQ3J4V2JJcU0wTHBINjNJOTY0emJSZy05RDVKcl9qSFg1bXM5bnJqZnpxbjV1YmppakRHZw?oc=5",
-   "title": "El Óbila recibe al invicto Solares en busca de su segundo triunfo de la temporada",
-   "body": ""
-  },
-  {
-   "date": "2026-10-23",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbS1ibWNmMm5HS3pZSmluRUNfZ2JRQWRFTUYyM0E0eG9QM3VvVVZMeEpmWUVxVG9YUm43N3dITkhBN0RmT28tNlZZNlJ2ZDZQdC1hMklXQlo2R1lWdDgzbllSVkpDQ2IweUJyRXJEWjhSMV9HVWlIeUdtbDBuNmd3Y0MzTFBkNllwbkdOOElCUGdRR3B6R19ZZmIwRUc2aElTcDVxem5HLXVnU3IySlRPX3ZDWnVXMTd5VFJaOW11VXExaUhCTjNtNFZhTU5icEJ0bWJtSw?oc=5",
-   "title": "El factor CUM Carlos Sastre, un plus para el Hotel 4Postes",
-   "body": ""
-  },
-  {
-   "date": "2026-10-19",
-   "src": "Deportes Ávila",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbWhwVHdkTFBpd3VvTjJJV0xqRzZ0QW90UmJ4ZXdzMGtxNDc3alJVc0M1aFF6VFN5X0xIV3lRX2dPd3lSYTQtTnBjNVU2elhIVFNZYjBHaXU0ZndkcmtiaWZQYVU1dVBhcWcxQTAzTU1SWHp0R3FjMHZfS1E5Sm0yWVA4RWdHbDJHTTlUYUlKLXVORU1PLXNFZlRXWHM?oc=5",
-   "title": "El líder arrolla al Óbila: noche negra para los verderones en Amorebieta",
-   "body": ""
-  },
-  {
-   "date": "2026-10-17",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUTlJMzBwRXlDSXJIVVlvUU1KTWJQc3JNRTk3Vm1IdHd2ZFg4ckNWUEpSNF9iNTZlTE16S2ZEaFd3cXREU3RLcHVrMW44NENBTnhuSldJZnB0dXc3M3pTeUsycWNSUlNHOFdVWm9CcFAzZ2FBdzByTmpYdk52WFBraXZnXzA0V1Nrd0R4MTh5bXZYWU5QVVl3VWhTaDc1SEZpNW5pUHRONkM1ZE4xZ2w0aGVaZ3RWZTNzMDNFNg?oc=5",
-   "title": "El Hotel4 Postes no tuvo ninguna opción",
-   "body": ""
-  },
-  {
-   "date": "2026-10-11",
-   "src": "Deportes Ávila",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYndYLTY4NHVnLTRhRl8zN01neEtBS2E1V1RSSzZIazZGVHZ5ZUU2OVdzNUNNOVdWdk83QnI1bnVfLXhrWEhmZzdUdXIwaXM3LWZkbkxrSGhUZWxYcHBOaXhNYkY2VjV4N3loaHcwOEZYNEVGWURIR2EyWHpmeGx4OFpJWjZVOGttNFZfdTdJS1BlS0ppT0E3Yw?oc=5",
-   "title": "El Óbila resurge en el último cuarto y conquista su primera victoria",
-   "body": ""
-  },
-  {
-   "date": "2026-10-10",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOV0dyVmthSHdveGdiSnEwMXR5WGN2dDVOSUlxRko5VXl1LURNN1dDUWtKaDlxS2FTeW1TRXNxcTRDRV9PUWhwVmFLVlFrYmN0dzExbGJxaEotV2lXZEU1WGtzZFdsU3pTVEFQd1RCZl9DbXhQTlpudGtGblBVQW1GUmRMU01peUZDSjhxaG1tcmtVYlppQTBQQ3lWQlJVdDI2VHhjQTlLT0F1OWxfSk5uODNlcjQ?oc=5",
-   "title": "El Hotel 4Postes se impone (98-87) a Universidad de Deusto creyendo",
-   "body": ""
-  },
-  {
-   "date": "2026-10-09",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMmtSRm9XclBVRHZXdUY4blBoa285ZW5fNlZuaUJsUEFWUllWR05kc3ExUF9WN1hpb2pQM0ZXV082VDRBUm04WDJHb2NnTDVOM0JsVlp0R1Z1dnprempxbWpBa2FFeWo5ZkR1VWdENGZsNmpOcXlDLWt4a01nUElvVVlvVHN6ajA3aHhRLXRYNU5oUHhvdl9PX0o0cXZraE42aF9sWnFkejAzM3VXUWRiZ3ZYa3FXNmQyQzUxU2ZGbFZ4WFFYai1kQ2VmQk9XeUVyT0s1aXNSMkg1dw?oc=5",
-   "title": "El Hotel 4Postes debuta en casa ante el Universidad de Deusto",
-   "body": ""
-  },
-  {
-   "date": "2026-10-05",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQTFkcS1sTzZwUmNVWUo4ZDJUSGc2Ri1TajJsbm83dFlRZnFnZjQ1cDdia2xJZ0tYSXQ0Y1poSkwzUF83Z2F1MTcyQzd5VTJlTHpWRHhKS19hWGsycHV4YTlGWGV3Y0hiVUc5M3k2TU1TSEJKcXBzR2s0T245NDc2ckNVNU9qbENpWll2WE1KZzlKSFZKbWp6a2xnZWRmbHN2SlE2ckZwN0NOTVIwYWpNMzlaVDlKM0thMUE?oc=5",
-   "title": "Cantbasket, un test duro para calibrar",
-   "body": ""
-  },
-  {
-   "date": "2026-10-04",
-   "src": "Deportes Ávila",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUnczbno3NDhjVW5mSER0OHFZc2dxcUc3THR0cmE2WjBtT3JKZzlBVHFuRmt4M0R5c25iak1aV201OU52LWhlT2gzNmdZbDNIOHJ4WU1LMjF0cWpxcElUaHpWVjRZQW1qb280bU44U2NYQmM5UkpaeHp2SFpzRDJzalJKaW56cVU4Q2RJWmlVVFpBV1FEbWxNcmpHQ0RzQ1dZaEVZLUg0VVI?oc=5",
-   "title": "El Óbila tropieza en su debut liguero: Cantbasket 04 se impone 96-78 en Santander",
-   "body": ""
-  },
-  {
-   "date": "2026-10-03",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTllBMWk4UmZGNEpzcDhEYVVOS2taNlE3MkxjWkhEc2J3ejYzTEJVUFdqWGhjSG4zc2dxekYtb1NzbDZCNWxKd2N2b3JMcGZ0bEdTajJUaVFCdTF2NGxlRVJEdVBKbGVfNktLYkRvajZfRERuU0hkdlotaFptMjNXeGVZYVBmdWZmSUhTekxIRTY4ME1reEptaVNtV2x1WVF5NEJJM0pqanFfdnFSa042NV9VQVVGMXQ0NHR0MnpVMUliNGs?oc=5",
-   "title": "Mucho Cantbasket para el nuevo Hotel 4Postes",
-   "body": ""
-  },
-  {
-   "date": "2026-09-26",
-   "src": "Diario de Ávila",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUDNTdFlybFgxeVVySDFLeWJmQzBkcXI4MUNoYURWWDMzSWlvWTV6MnVqQVRSRkhGLW9WQzF4X2hoa29zeGNCU1JaN2Z1VTdFQlgxZ29FaWZNWTRWWmpIYXN1NTFSYkVDdG1nR0o0WjhnQ21qVGhocm0zY1hnQjJuU0xXQ0VCQXNSaHlFc1VFWHhET2Nac0FsR2dGTUJJUGdfQ3Y4QjZvV2RWUGtDVTlKVVJsaUVKYzVlbE5tcllVNzVXQ1prTnJIMEdrVWE4MEVxdGZ1ZmFQbV8zUQ?oc=5",
-   "title": "Derrota del Hotel 4Postes en el último ensayo de pretemporada",
-   "body": ""
-  },
-  {
-   "date": "2026-09-25",
-   "src": "Deportes Ávila",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRkVfSWZHN2lCWWNTU2R2Qlg1RHNkdmJ4aVFoZ1lINGJaaS1DZ2NTUWlHeHd1RVdrQmNfYS0xWC1ZdTYybG1YTXZjVU1KMXVnanZvWkhDUjhiVUozRmk3LVRxSkI1UHJrQXdvM0tKTC1KMFRrMEJSeXBqNXg0MmlYT0FzcDdCc1RNY2N1X1doS1h5NXZBU0VIUXhsTUJPZ1J3T0gwOFR3?oc=5",
-   "title": "El Óbila cierra su pretemporada en Madrid con la mirada puesta ya en Santander",
-   "body": ""
-  }
- ],
- "feb_updated": "2026-11-26T03:30:39Z"
+ "news_auto": [],
+ "feb_updated": "2026-11-26T10:20:00Z"
 }
